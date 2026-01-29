@@ -1,0 +1,252 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .page-content-wp .container-fluid {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .right-content-wp {
+        padding-left: 25px;
+    }
+    .single-acti-box br {
+        display: none;
+    }
+    .right-content-wp h2 {
+        font-size: 53px;
+    }
+    .page-content-wp .sidebar-top figure img {
+        max-width: 150px;
+    }
+
+
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .gap-x-40 {
+        row-gap: 50px;
+    }
+    .page-content-wp .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .right-content-wp {
+        padding-left: 18px;
+    }
+    .single-acti-box br {
+        display: none;
+    }
+    .right-content-wp h2 {
+        font-size: 46px;
+    }
+    .page-content-wp .sidebar-top figure img {
+        max-width: 134px;
+    }
+    .announcements-wp .am-content {
+        min-height: 330px;
+    }
+    .rc-content-box {
+        min-height: 583px;
+    }
+    .page-content-wp .content h3 {
+	    font-size: 28px;
+    }
+    .page-content-wp .content span {
+        font-size: 16px;
+    }
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .gap-x-40 {
+        row-gap: 45px;
+    }
+
+    .page-logo-wp img {
+        max-width: 189px;
+    }
+    .page-menu-wp ul {
+        gap: 42px;
+    }
+    .page-content-wp .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .right-content-wp {
+        padding-left: 0px;
+    }
+    .single-acti-box br {
+        display: none;
+    }
+    .right-content-wp h2 {
+        font-size: 46px;
+    }
+    .page-content-wp .sidebar-top figure img {
+        max-width: 134px;
+    }
+    .announcements-wp .am-content {
+        min-height: 330px;
+    }
+    .rc-content-box {
+        min-height: 583px;
+    }
+    .page-content-wp .content h3 {
+	    font-size: 28px;
+    }
+    .page-content-wp .content span {
+        font-size: 16px;
+    }
+    .g-x-4 {
+        row-gap: 25px;
+    }
+    .employee-search-box {
+        min-width: 1320px;
+    }
+    .employee-search-box-area {
+        overflow: auto;
+    }
+
+
+    
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+    .gap-x-40 {
+        row-gap: 38px;
+    }
+    .login-wrap {
+        padding-inline: 40px;
+    }
+    .login-logo a {
+        max-width: 340px;
+    }
+    .login-form {
+	    padding: 60px 65px;
+    }
+    .header-area {
+        padding: 15px 0px;
+    }
+    .page-logo-wp img {
+        max-width: 150px;
+    }
+    .page-menu-wp ul {
+        gap: 25px;
+    }
+    .page-content-wp .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .right-content-wp {
+        padding-left:0px;
+    }
+    .single-acti-box br {
+        display: none;
+    }
+    .right-content-wp h2 {
+        font-size: 46px;
+    }
+    .page-content-wp .sidebar-top figure img {
+        max-width: 134px;
+    }
+    .announcements-wp .am-content {
+        min-height: 330px;
+    }
+    .rc-content-box {
+        min-height: 583px;
+    }
+    .page-content-wp .content h3 {
+	    font-size: 28px;
+    }
+    .page-content-wp .content span {
+        font-size: 16px;
+    }
+    .g-x-4 {
+        row-gap: 25px;
+    }
+    .right-content-wp h2 {
+        font-size: 35px;
+    }
+    .rc-content-box {
+        padding: 30px 12px;
+    }
+    .right-content-wp .input-box input {
+        padding-block: 14px;
+        font-size: 13px;
+    }
+
+    .employee-search-box {
+        min-width: 1320px;
+    }
+    .employee-search-box-area {
+        overflow: auto;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .login-wrap {
+        padding-inline: 20px;
+    }
+    .login-logo a {
+        max-width: 300px;
+    }
+    .login-form {
+	    padding: 40px 30px;
+        min-height: 68vh;
+    }
+    .login-logo {
+	    padding-bottom: 60px;
+    }   
+
+    .page-user-icon button img {
+        width: 45px;
+    }
+    .right-content-wp h2 {
+        font-size: 28px;
+    }
+    .employee-search-area {
+        display: block;
+    }
+    .employee-search-right a {
+        margin-top: 20px;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .employee-search-items {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .employee-search-box {
+        min-height: 560px;
+    }
+
+
+
+
+}
