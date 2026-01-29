@@ -1,0 +1,182 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-HRD-01
+REV.	:	B
+SHEET	:	7 OF 5
+TITLE	:	HUMAN RESOURCES
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-HRD-01
+REV.	:	B
+SHEET	:	1 OF 5
+EFFECTIVE DATE :	1st Dec 2015
+TITLE	:	HUMAN RESOURCES
+Rev. #
+Description of Change
+Clause #
+A
+B
+Initial Release - ISO 9001 : 2008 Requirements
+Included requirements of ISO 9001:2015 standard
+N.A.
+2, 3.1, 4.2.1, 4.2.6
+Prepared and Reviewed By
+________________________________
+(Signature)
+MANAGEMENT REPRESENTATIVE
+__________________________________
+(Designation)
+____________________________
+(Date)
+Approved By
+________________________________
+(Signature)
+CEO
+__________________________________
+(Designation)
+____________________________
+(Date)
+1.	Purpose	:	To define the procedure to ensure that competent level and training needs are identified and suitable training programmes are designed and provided for all personnel performing activities affecting product requirements; and training evaluated.
+2.	Scope	:	This procedure applies to the personnel over-seeing the training needs of staff who perform activities affecting product requirements and to ensure the knowledge necessary for the operation of its processes and to achieve conformity of products and services.
+3.	Responsibility	:
+3.1	The Human Resource PIC (i.e., COO, Operations dept) is responsible for reviewing the training needs of the individual staff taking into account the knowledge necessary for the operation of its processes and to achieve conformity of products and services.
+3.2	The Human Resource PIC is responsible for coordination of training and maintaining training records.
+4.	Procedure	:
+4.1	Planning
+4.1.1	The Top Management shall define the level of competence of all staff, identify the training needs provision particularly for product requirements in the “Competent Level of Manpower” (see Annex I).
+4.1.2	The Human Resource PIC shall plan for internal / external training via a “Training Programme” (see Form No. HRD-QR-01).
+4.2	Execution
+4.2.1	Circumstances Leading to the Need for Training
+The following circumstances may lead to needs for staff training :
+Introduction of new technology, machines and equipment;
+Diversification of Business;
+Major changes introduced into the Quality System - e.g. QM / QP revisions;
+Increase of individual responsibility / job enrichment / job enlargement;
+Implementation of new regulations / policies;
+New Recruitment;
+Upgrading of existing employee to the defined competent level to ensure knowledge is attained that is necessary for the operation of the processes and to achieve conformity of products and services.
+Note: Organizational knowledge is knowledge specific to the organization; it is generally gained by experience. It is information that is used and shared to achieve the organization’s objectives.
+Organizational knowledge can be based on:
+Internal sources (e.g. intellectual property; knowledge gained from experience; lessons learned from failures and successful projects; capturing and sharing undocumented knowledge and experience; the results of improvements in processes, products and services);
+External sources (e.g. standards; academia; conferences; gathering knowledge from customers or external providers).
+In general, all staff shall be trained on :
+(a)	How they can contribute to achievement of quality objectives;
+(b)	Procedures related to his management / work - on how their activities can affect product requirements.
+4.2.2	Training Need Identification
+.1	The “Training Budget” (see Form No. HRD-QR-04) shall be established and approved by the CEO.
+.2	The Human Resource PIC shall identify the training needs of personnel.
+.3	The Training Programme, inclusive of management training, shall be approved by the CEO.
+4.2.3	Training Implementation Procedure
+.1	Training Plan
+(a)	On-the-Job Training
+The Functional Head may recommend the staff for on-the-job training.
+The employee shall be assigned to the respective Trainer (e.g. Supervisor) for training. The Trainer may use the Quality Procedures or other relevant documents as training materials.
+On-the-job training contents shall also include :
+(1)	consequences of deviation from standard procedures;
+(2)	how to achieve Quality Objectives.
+On completion of on-the-job training, the Trainer / Functional Head shall assess the employee’s overall performance.
+Training attendance record shall be maintained.
+(b)	Off-the-Job Training
+The Human Resource PIC shall identify suitable courses through the staff, work out the training cost and duration and make the necessary administrative arrangements.
+.2	Documentation
+The Human Resource PIC shall maintain trainee’s attendance record and update the respective “Training Record” (see Form No. HRD-QR-02) of each employee progressively.
+4.2.4	Orientation and Training of New Employees
+.1	Senior Staff
+New employees shall go through a series of orientation with the various Department Heads and / or CEO.
+.2	Junior Staff
+New employees shall go through a series of orientation with his respective Department Head.
+.3	The Quality Procedures may be used during the orientation as a training manual.
+4.2.5	Specific Personnel Qualification Requirements
+Persons performing specific tasks affecting product requirements (e.g., Internal Auditors / Director / Manager / Consultant / Engineer) shall be utilized on the basis of appropriate education, training and / or experience as determined by the Company per the Competent Level of Manpower (see Annex I).
+4.2.6	Verztec Consulting Pte Ltd will ensure that persons doing work under the organization’s control are aware of:
+The quality policy;
+Relevant quality objectives;
+Their contribution to the effectiveness of the quality management system, including the benefits of improved performance;
+The implications of not conforming with the quality management system requirements.
+4.3	Monitoring (Checking) and Effective Actions
+4.3.1	Evaluation / Feedback by Trainee / Functional Head
+.1	The Trainee shall conduct self-evaluation and provide feedback after his / her training. He / she shall complete the "Training Feedback & Evaluation Form" (see Form No. HRD-QR-03) and return to the Human Resource PIC.
+.2	The Functional Head shall evaluate Trainee through assessment of work performance over a period of two(2) months after training. He shall complete the Training Feedback & Evaluation Form for each evaluation.
+4.3.2	The Human Resource PIC shall perform self-check to ensure that all steps stipulated in this procedure are carried out properly and assure effective actions for full conformity at all times.
+4.3.3	The internal auditor shall audit this procedure to ensure full conformity by all responsible persons.
+4.3.4	The Human Resource PIC shall, after close-out of all nonconformities from internal / external audits, propose improvement(s) in the Management Review meeting for top management’s approval.
+5.	Reference Quality Records / Forms
+-
+Training Programme
+-
+Training Record
+-
+Training Feedback & Evaluation Form
+-
+Training Budget
+ANNEX I
+COMPETENT LEVEL OF MANPOWER
+MANPOWER LEVEL
+EDUCATION LEVEL
+EXPERIENCE (YRS)
+INDUCTION TRAINING NEED PROVISION * / QUALITY COMPETENCE
+A
+B
+C
+D
+E
+F
+G
+H
+I
+Consultants/ PM
+Diploma/ Degree
+Fresh grad – 1 yr onwards
+x
+x
+Marketing Exec/ Managers
+Diploma/ Degree
+Fresh grad – 1 yr onwards
+x
+x
+IT
+Diploma/ Degree
+Fresh grad – 1 yr onwards
+x
+x
+Finance
+Diploma/ Degree
+Fresh grad – 1 yr onwards
+x
+x
+Management
+Degree
+5
+x
+x
+x
+x
+x
+x
+x
+x
+x
+Supervisor
+Diploma/ Degree
+2
+x
+x
+* LEGEND :
+A
+Quality Policy + Objectives + How to contribute
+B
+Quality Manual (QM) / Quality Procedure (QP)
+C
+Internal Audit
+D
+QC Inspection / Verification
+E
+QA Supervision
+F
+Quality Management (ISO 9001 : 2015)
+G
+Others : QM Principles
+H
+ISO 9001 Awareness Training Course
+I
+Internal Quality Auditor Training Course

@@ -1,0 +1,70 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-CS-01
+REV.	:	A
+SHEET	:	3 OF 3
+TITLE	:	CUSTOMER SATISFACTION
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-CS-01
+REV.	:	A
+SHEET	:	1 OF 3
+EFFECTIVE DATE :	1st OCT 2009
+TITLE	:	CUSTOMER SATISFACTION
+Rev. #
+Description of Change
+Clause #
+A
+Initial Release - ISO 9001 : 2008 Requirements
+N.A.
+Prepared and Reviewed By
+________________________________
+(Signature)
+MANAGEMENT REPRESENTATIVE
+__________________________________
+(Designation)
+____________________________
+(Date)
+Approved By
+________________________________
+(Signature)
+CEO
+__________________________________
+(Designation)
+____________________________
+(Date)
+1.	Purpose	:	To define a system to monitor customer satisfaction / dissatisfaction for continual improvement, and enhancement of customer satisfaction.
+2.	Scope	:	This procedure applies to the Sales PIC (i.e., CEO, COO, Manager and Consultant).
+3.	Responsibility	:
+The Sales PIC shall be responsible for the monitoring of customer satisfaction / dissatisfaction for continual improvement.
+4.	Procedure	:
+4.1	Planning
+4.1.1	The Management Team shall review previous and current data relating to customers’ satisfaction level and initiate preventive action(s) to improve these levels.
+4.1.2	Together with the Management Team, the Sales PIC shall :
+(a)	plan to obtain feedback from customer on their satisfaction / dissatisfaction level;
+(b)	review complaint (if any) and
+look into areas for improvement (e.g. quality, service, delivery, cost competitiveness, etc.)
+4.1.3	The Sales PIC shall consolidate post-job compliments and appreciation letters / faxes.
+4.1.4	The Sales PIC shall revert and disseminate feedback with the “Customer Satisfaction Survey” (see Form No. CS-QR-01) to the relevant function and / or channel the feedback to Management for review in their monthly meetings.
+4.1.5	A “Customer Satisfaction Monitoring Plan” (see Form No. CS-QR-02) shall be derived by management and monitored by Top Management till full improvement is achieved.
+4.2 Execution
+4.2.1	Contract Handling
+.1	The Sales PIC shall carry out contract review activities with customer (see QP-SAL-01). He shall listen attentively and take down all customers’ requirements.
+.2	Those requirements that can be provided to customer shall be committed and put in writing.
+.3	The outstanding items which require Top Management’s deliberation shall be negotiated progressively with customer to ensure happiness / satisfaction of customer and a ‘win-win’ situation.
+.4	Any dissatisfaction comments / complaints or comments for improvement shall be noted down and input into the Customer Satisfaction Monitoring Plan for review and necessary action.
+4.2.2	Customer Feedbacks
+.1	All other staff who interface with customer shall, where applicable, take note of feedbacks from customer and channel these feedbacks into the Customer Satisfaction Monitoring Plan via the Sales PIC.
+.2	The Sales PIC and the Operations PIC shall obtain feedback from customer via the Customer Satisfaction Survey for project value exceeding S$8000.
+.3	During Management Review Meeting, the Management Team shall make every effort to consolidate all positive / negative feedbacks into the Customer Satisfaction Monitoring Plan.
+.4	The discussion will also have respective Heads assigned to the improvement action of a particular area / department and agreed time frame.
+4.3	Monitoring (Checking) / Effective Actions
+4.3.1	The Sales PIC shall monitor and ensure close out or achievement of the Customer Satisfaction Monitoring Plan and the Improvement Action Plans (self-check).
+4.3.2	The internal auditor shall audit this procedure to ensure full conformity.
+4.4	Data Analysis / Corrective Action
+The data collected on customer satisfaction level shall be analyzed as to the root-cause(s) of any dissatisfaction or problem.
+Effective corrective actions shall be taken on feedbacks to prevent repetitive complaints.
+The Management Team shall make every effort to achieve enhanced customer satisfaction - through a proposed Improvement Plan to be approved by top management in the Management Review meeting.
+5.	Reference Quality Records / Forms
+Customer Satisfaction Survey
+Customer Satisfaction Monitoring Plan

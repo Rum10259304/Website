@@ -1,0 +1,36 @@
+ANNEX I - INSPECTION & TEST PLAN
+PREPARED BY
+REVIEWED BY
+APPROVED BY
+(Learning and Development Solutions)
+Pg. 1 of 1
+Process Activity
+QP Ref.
+Acceptance Criteria
+Inspection & Test Method
+Frequency / Sample Size
+Records Kept
+Dept & Person Responsible
+Scripts creation
+Must be approved by PM
+Feedback provided by PM
+100%
+Backup -> Scripwriting Folder
+PM
+Scriptwriters
+Courseware development
+Must be approved by PM and scriptwriters
+Feedback provided by PM and scriptwriters
+100%
+Back-up -> Development Folder
+Instructional Design Manager
+Multimedia Developers
+Scriptwriters
+Final course delivery
+Must be approved by Verztec top management, Verztec internal staff OR external clients (for client projects)
+Feedback provided by Verztec top management, internal staff OR external clients
+100%
+Back-up -> Development –> Beta/Charlie Folder
+CEO
+COO
+PM

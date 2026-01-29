@@ -1,0 +1,200 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY MANUAL
+DOC. NO.	:	QM
+REV.	:	B
+SHEET :	33 OF 36
+ANNEX II	:	QUALITY RESPONSIBILITIES & AUTHORITIES OF VARIOUS FUNCTIONS
+ANNEX II - QUALITY RESPONSIBILITIES & AUTHORITIES OF VARIOUS FUNCTIONS
+FUNCTION
+ISO 9001 QUALITY RESPONSIBILITY
+AUTHORITY (PIC)
+QP REF.
+MANAGEMENT RESPONSIBILITY
+TOP MANAGEMENT
+o	to provide commitment evidence to QMS and effectiveness improvement :
+CEO
+(Quality Manual)
+-	Organization Communication : importance of meeting customer & statutory and regulatory requirements
+Management
+-	Establishment : Quality Policy
+Representative
+-	Ensure establishment : measurable Quality Objectives at relevant functions & levels
+-	Conduct Management Review
+-	Ensure Resource Availability
+o	to ensure customer requirements are determined & met for enhancing customer satisfaction
+o	to ensure QMS Planning and Integrity - despite changes
+o	to ensure Responsibility & Authority defined & communicated within organization
+o	to appoint Management Representative
+o	to ensure establishment of internal communication processes, including QMS & its effectiveness
+o	to review QMS at planned intervals for effectiveness, continual improvement & changes
+To be accountable for the effectiveness of the quality management system
+QP-SMQ-03
+RESOURCE MANAGEMENT
+(STAFF FUNCTIONS)
+HUMAN RESOURCE
+o	to use competent personnel on works
+o	to determine quality competence needs
+o	to provide training or other actions
+o	to evaluate action effectiveness
+o	to ensure personnel aware of relevance & importance of their activities and how they can contribute to Quality Objectives achievement
+o	to maintain records of education, training, skill & experience
+COO
+QP-HRD-01
+FUNCTION
+ISO 9001 QUALITY RESPONSIBILITY
+AUTHORITY (PIC)
+QP REF.
+RESOURCE MANAGEMENT
+(STAFF FUNCTIONS)
+PURCHASING
+o	to ensure purchased product conforms to specified requirements
+o	to evaluate & select suppliers based on their ability to meet requirements - with selection, evaluation & re-evaluation criteria established; to maintain evaluation-result records
+o	to include (where appropriate) info and ensure purchase-requirement adequacy :
+-	requirements for approval of products, procedures, processes, equipment; personnel qualification; QMS
+o	to establish & implement inspection or other activities
+-	to ensure purchased product meets specified requirements
+o	to state intended verification of organization or customer and product release method in purchasing info
+CEO
+COO
+Manager
+Consultant
+QP-PSC-01
+o	to identify & control all outsourced process for product conformity
+MAINTENANCE
+(INFRASTRUCTURE)
+o	to determine, provide and maintain infrastructure
+-	buildings, workspace & associated utilities
+-	process equipment (hardware & software)
+-	supporting services (e.g., transport, communication or information systems)
+COO
+QP-MTN-01
+TECHNICAL / LEGAL DOCUMENT CONTROL
+o	to control QMS-required and external-origin documents determined to be necessary for planning and operation of the QMS / drawings / codes / standards / regulations for:
+approval review & update changes identification access availability use of obsolete docs
+Consultant
+Management Representative
+Design Team
+QP-SMQ-04
+QP-SMQ-03
+PRODUCT REALIZATION
+(LINE FUNCTIONS)
+SALES CONTRACTS
+(CUSTOMER-RELATED PROCESS)
+o	to determine statutory and regulatory requirements applicable to product requirements
+o	to review product requirements and variations, and maintain review & action records
+o	to determine and implement effective customer communication
+-	including changes & complaints
+o	to handle complaints for customer satisfaction
+CEO
+COO
+Manager
+Consultant
+Design Team
+QP-SAL-01
+QP-SMQ-02
+QP-SMQ-03
+FUNCTION
+ISO 9001 QUALITY RESPONSIBILITY
+AUTHORITY (PIC)
+QP REF.
+PRODUCT REALIZATION
+(LINE FUNCTIONS)
+PROCESS & SERVICE
+(OPERATIONS CONTROL)
+o	to plan & carry out production or service under controlled conditions - including product characteristics, suitable equipment, MM equipment, Monitoring & Measurement (MM), product release, delivery & post-delivery activities
+CEO
+COO
+Manager
+Consultant
+Design Team
+QP-OPS-01
+o	to ensure supplier control for outsourcing work
+o	to validate 'special' processes
+o	to provide positive product identification & traceability throughout product realization
+o	to control the unique identification of a product and maintain record, where traceability is a requirement
+to preserve the product by backing up data in the server for storage, and protect them from virus using anti-virus software
+o	to identify, verify, protect and safeguard customer property, including Intellectual Property, to report to customer if customer property is lost, damaged or unsuitable for use and maintain record
+o	to train, brief & supervise work and to control process to Process Plans
+o	to implement product release, delivery & post-delivery activities
+o	to determine & manage work environment for product requirements conformity
+o	to plan & implement Work Supervision or Process Control (Process Monitoring & Measurement) Vendor Control Customer Satisfaction Data Analysis Improvement process for product & QMS conformity and QMS effectiveness improvement - methods shall include statistical technique applicability
+o	to determine, collect & analyze data for informed management decision
+o	to command for effective actions to prevent recurrence (corrective action) and prevent occurrence (preventive action)
+-	while continually improve QMS effectiveness
+QP-SMQ-02
+QP-SMQ-03
+PRODUCT QUALITY
+(MONITORING & MEASUREMENT CONTROL)
+o	to inspect & test products to Inspection & Test Plan
+CEO
+COO
+Manager
+Consultant
+Design Team
+QP-MMP-01
+o	to maintain evidence of conformity with the acceptance criteria, to keep record of person(s) authorizing release of product for delivery to the customer
+o	to identify the product status concerning monitoring & measurement throughout product realization
+o	to control nonconforming product; also to record action or concession and to re-verify
+o	to ensure necessary product recall to procedures
+o	to plan & implement Inspection & Test Plan (Product or Service Monitoring & Measurement) Customer Satisfaction Data Analysis Improvement process for product & QMS conformity and QMS effectiveness improvement - methods shall include statistical technique applicability
+o	to determine, collect & analyze data for informed management decision
+o	to command for effective actions to prevent recurrence (corrective action) and prevent occurrence (preventive action)
+-	while continually improve QMS effectiveness
+QP-SMQ-02
+QP-SMQ-03
+CUSTOMER SATISFACTION
+o	to monitor information relating to customer perception as to meeting customer requirements
+o	to determine method for Info-Collection & Use
+CEO
+COO
+Manager
+Consultant
+QP-CS-01
+o	to plan & implement Customer-Satisfaction Monitoring Data Analysis Improvement process for product & QMS conformity and QMS effectiveness improvement
+- methods shall include statistical technique applicability
+o	to determine, collect & analyze data for informed management decision
+o	to command for effective actions to prevent recurrence (corrective action) and prevent occurrence (preventive action)
+- while continually improve QMS effectiveness
+FUNCTION
+ISO 9001 QUALITY RESPONSIBILITY
+AUTHORITY (PIC)
+QP REF.
+SYSTEM CONTROL
+MANAGEMENT REPRESENTATIVE
+o	to ensure establishment, implementation & maintenance of QMS process
+o	to report to top management on QMS performance and improvement needs
+o	to ensure promotion of awareness of customer requirements throughout organization
+o	to liaise with external parties on QMS matters
+Management Representative
+(Quality Manual)
+INTERNAL AUDIT
+o	to conduct internal yet independent audit at planned intervals - to ensure ISO & QMS effectiveness, leading to close-out of NCR's
+Management Representative
+Internal Auditors
+QP-SMQ-01
+QP-SMQ-02
+o	to plan & implement Internal Audit (Management System Monitoring & Measurement) Data Analysis Improvement process for product & QMS conformity and QMS effectiveness improvement
+- methods shall include statistical technique applicability
+o	to determine, collect & analyze data for informed management decision
+o	to command for effective actions to prevent recurrence (corrective action) and prevent occurrence (preventive action)
+-	while continually improve QMS effectiveness
+MANAGEMENT REVIEW
+o	(top management) to review QMS at planned intervals for effectiveness, improvement and necessary changes
+o	to document such review
+CEO
+Management Representative
+QP-SMQ-03
+QMS DOCUMENT CONTROL
+o	to be kept to a minimum (for effectiveness & efficiency)
+o	to control QMS-required & external origin documents determined to be necessary for planning and operation of the QMS for:
+approval review & update changes identification access availability use of obsolete docs
+o	to revise documents – basing on lessons learned from corrective action, emergency & management review
+Management Representative
+Document Controller
+QP-SMQ-04
+RECORD CONTROL
+o	to establish & maintain records as evidence for conformity; to ensure legibility, ready identification, activity traceability and retrievability
+o	to control for identification, storage, protection, retrieval, retention and disposition of records
+Management Representative
+Document Controller
+QP-SMQ-05

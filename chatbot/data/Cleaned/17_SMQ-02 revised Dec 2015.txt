@@ -1,0 +1,100 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-SMQ-02
+REV.	:	B
+SHEET	:	5 OF 5
+TITLE	:	NON CONFORMITY AND CORRECTIVE ACTIONS
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-SMQ-02
+REV.	:	B
+SHEET	:	1 OF 5
+EFFECTIVE DATE : 1st Dec 2015
+TITLE	:	NON CONFORMITY AND CORRECTIVE ACTIONS
+Rev. #
+Description of Change
+Clause #
+A
+B
+Initial Release - ISO 9001 : 2008 Requirements
+Include the requirements of the ISO 9001:2015 standard
+N.A.
+3/4/5
+Prepared and Reviewed By
+________________________________
+(Signature)
+MANAGEMENT REPRESENTATIVE
+_________________________________
+(Designation)
+____________________________
+(Date)
+Approved By
+________________________________
+(Signature)
+CEO
+_________________________________
+(Designation)
+____________________________
+(Date)
+1.	Purpose	:	To define and implement a Corrective Action system to ensure the cause of nonconformities or potential nonconformities are promptly analysed and effective actions are taken to prevent recurrence and / or occurrence.
+2.	Scope	:	This procedure applies to the Management Representative and all Functional Heads.
+3.	Responsibility	:
+3.1	The Management Representative / Functional Heads shall be responsible for nonconformities and shall ensure that the root-cause of nonconforming products is promptly identified, analysed and effective corrective actions are taken to prevent recurrence.
+3.2	The Functional Heads shall be responsible for determining, initiating, implementing and reviewing the Preventive Action via Risk Prevention Plan (Business Risk Assessment) , with effective actions taken to prevent occcurence.
+3.3	The CEO shall be responsible for identifying, planning and implementing the process for Continual Improvement in the following :
+(a)	Performance in processes / activities and product / risk;
+(b)	Performance of the organization system and management;
+(c)	Performance in objectives and customer / interested-party satisfaction.
+4.	Procedure	:
+4.1	Planning / Data Analysis
+4.1.1	The Management Representative and the Functional Heads shall, based on data analysis, plan and implement the corrective actions as needed :
+.1	Corrective Action
+The Functional Head shall plan to close-out immediately all nonconformities related to product, process / external provider, system, objectives and customer / interested-party satisfaction - i.e., through evaluation and elimination of the root-cause(s) of nonconformities, in order to prevent the recurrence.
+.2	Preventive Action
+The Functional Head shall plan to ensure the performance of process and product - i.e., through Risk Prevention (Business Risk Assessment) to determine preventive action for elimination of the cause(s) of potential nonconformities, in order to prevent the occurrence.
+4.1.2	To improve the effectiveness of management actions for better performance and people / information-management, the Functional Heads and Management Representative(s) are encouraged to practise the 8 x Quality Management Principles.
+4.1.3	Where necessary, risk assessment may be conducted by the Functional Heads before implementation of the intended corrective / preventive actions.
+4.2	Execution
+4.2.1	Corrective Action
+.1	Customer Feedback / Corrective Action
+(a)	The Sales PIC (i.e., CEO, COO, Manager and Consultant) shall be responsible for taking appropriate action upon receipt of complaint or feedback from customer. These shall be recorded in the “Customer Complaint Report” (see Form No. CAR-QR-01).
+(b)	If the root cause of the complaint shows that it originates from the supplier-supplied product / material, upon data analysis, para. 4.2.1.2 of this procedure shall apply.
+(c)	The responsible Functional Head shall take necessary actions promptly and ensure that the corrective actions are effective to prevent recurrence of the problem.
+(d)	The Sales PIC shall follow-up on the corrective action commitment for both technical / supplier matters, verify its effective implementation and counter sign on the Customer Complaint Report.
+(e)	He shall feedback to the customer the corrective action taken.
+(f)	He shall close the case in the Customer Complaint File upon confirmation with the customer, and act to review the corrective action taken and prevent recurrence.
+.2	External Provider Corrective Action
+(a)	Upon receiving report of a material / works quality problem, the Functional Head shall notify the Purchaser (i.e., CEO, COO, Manager and Consultant).
+(b)	The Purchaser shall notify the supplier and initiate a “Corrective Action Request/Preventive Action Request (CAR)“ (see Form No. CAR-QR-02). Data / root-cause analysis shall be carried out by the responsible supplier.
+(c)	The Purchaser shall ensure that the external provider responds with a detailed corrective action plan with stipulated time frame.
+(d)	The Purchaser shall review the external provider’s response, and, either close the case if the response is acceptable, or follow-up the case if the response is unacceptable.
+(e)	The supplier shall act to review the corrective action taken and prevent recurrence.
+.3	Product  Operations / Service Corrective Action
+(a)	The Operations PIC (i.e., CEO, COO, Manager and Consultant) shall record all nonconforming processes / works detected during supervision; the inspection-in-charge shall record all nonconforming products / risks detected from inspection or customer rejects.
+(b)	A CAR shall be raised to solicit corrective action from the responsible work function, who shall conduct data / root-cause analysis before corrective action is taken. The root-cause analysis shall lead to tighter process / work control to prevent recurrence of nonconformities.
+(c)	When nonconformities are detected during inspection but does not lead to the rejection of the lot, the nature of the nonconformity shall be noted in the inspection report, but no CAR shall be generated.
+(d)	The work function shall close-out the Corrective Action within the agreed time frame and direct the completed CAR to the originator, while acting to review the corrective action taken and prevent recurrence.
+.4	System Corrective Action
+Nonconformities detected during internal audits shall be recorded in the CAR, and be closed-out upon data / root-cause analysis - without delay by the respective Functional Heads, who shall also act to review the corrective action taken and prevent recurrence.
+.5	Performance Corrective Action
+The respective Functional Heads shall lead the staff towards achievement of the quality objectives. He shall, upon data / root-cause analysis, undertake effective corrective actions to achieve the objectives.
+4.2.2 Business Risk assessment for Preventive planning
+.1	Into preventive planning, the Functional Head for work / management shall conduct Risk Assessment - for any new development, activity, product / material, process, services, facility and external providers or new technical / legal requirements - leading to intended prevention of nonconformity occurrence as planned.
+.2	The Risk Assessment shall be analysed against data such as customer, legal and company requirements and past problems / controls - and be approved by the Functional Head / Management Representative.
+.3	The Functional Head shall incorporate the intended actions for control of high-risk potential nonconformities into the new Process / Product Control Plan and quality objectives for implementation and monitoring of product, process / supplier, system and customer / interested-party satisfaction.
+.4	He shall keep records for results of the preventive action(s) taken.
+.5	Review of Actions
+(a)	The status of actions are evident in the QMS / Improvement plans and records shall be reviewed by Top Management and all Functional Heads in conjunction with Management Review meeting.
+(b)	Through the Management Review meeting, the Management Team shall assess and determine opportunities for further improvement / actions to eliminate risks associated with the QMS, processes and products.
+4.3	Checking
+All corrective actions issued shall be verified close-out by the originator on records and if necessary by a follow-up visit to evaluate the effectiveness of its implementation, and confirmation of no recurrence.
+4.4	Further Action / Document Revision
+4.4.1	The responsible Functional Head shall implement and record any change in procedures / instructions and / or Plans and / or Objectives resulting from effective corrective & preventive actions. This shall be carried out in accordance with the “Control of Quality / Technical / Legal Documents & Electronic Data” procedure.
+4.4.2	All preventive actions shall be verified implemented timely and effectiveness evaluated by the Functional Head.
+5.	Reference Quality Records / Forms
+CAR-QR-01
+-
+Customer Complaint Report
+CAR-QR-02
+-
+Corrective Action Request

@@ -1,0 +1,86 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-PSC-01
+REV.	:	B
+SHEET	:	12 OF 12
+TITLE	:	PURCHASING & EXTERNAL PROVIDER CONTROL
+TABLE 1 -- EXTERNAL PROVIDER CONTROL PLAN
+Applicable
+Materials / Products / Services
+Purchasing Method
+Pre-Qualification (For New External Provider)
+On Going Appraisal (Existing External Provider)
+Quality Control For Each Order
+Method
+Responsibility
+Method
+Responsibility
+Method / Responsibility
+Category A
+Direct Materials (Softwares)
+Credit Terms / Signed Confirmation on vendor’s/ External Provider quotation.
+ISO certified company preferred or
+Price
+Samples
+Service Level
+Quality / Spec
+Initiated by Purchaser
+Approved by CEO/ Operations PIC
+Yearly Assessment
+Purchaser
+Receiving inspection of materials by Operations PIC in accordance to contract specs or requirements specified in the Inspection & Test Plan (ITP).
+Ref.: ITP / External Provider’s D.O.
+Category B
+Indirect Materials / Consumables
+Credit Terms / Signed Confirmation on vendor’s /External Provider quotation.
+ISO certified company preferred or
+Trial Order
+Recommendation
+Initiated by Purchaser
+Approved by CEO / Operations PIC
+N.A.
+N.A.
+Receiving verification of materials / consumables by Operations PIC in accordance to contract specs or requirements specified in the ITP.
+Ref.: ITP / External Provider’s D.O.
+Category C
+Capital Purchase
+Credit Terms / Signed Confirmation on vendor’s /External Provider quotation.
+ISO certified company preferred or
+Showroom - Product Demo
+Catalogue - Technical Evaluation
+Initiated & approved by CEO / Operations PIC
+N.A.
+N.A.
+Commissioning of machinery by CEO or delegate to ensure conformance to contract specs.
+Category D
+Subcontract Works (Outsourced)
+Translators
+Interpreters
+Voice- Overs
+Translation Agencies
+Copywriters
+P.O.
+Passed the Sample test reviewed internally/ by senior translators.
+ISO certified company preferred or
+Recommendation
+Market Reputation
+Portfolio of past experiences & clients
+Initiated by Purchaser
+Approved by CEO / Operations PIC
+Yearly Assessment
+Purchaser /
+Operations PIC
+Ongoing deliverables check by Purchaser / Operations PIC in accordance to contract specifications or requirements specified in the Operations Control Plan. Inspection records shall be maintained.
+Category E
+Services (Outsourced)
+Maintenance of Office Equipment
+Credit Terms / Signed Confirmation on vendor’s/ External Provider quotation/ contract.
+ISO certified company preferred or
+Track Record
+Recommendation
+Initiated by Purchaser
+Approved by CEO / Operations PIC
+Yearly Assessment
+Purchaser /
+Operations PIC
+Verification of services rendered / Servicing Report / D.O. by Purchaser / Operations PIC upon handover by service contractor.

@@ -1,0 +1,134 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-SMQ-06
+REV.	:	A
+SHEET	:	8 OF 5
+TITLE	:CONTROL OF DESIGN & DEVELOPMENT
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-SMQ-06
+REV.	:	A
+SHEET	:	1 OF 5
+EFFECTIVE DATE : 1st Dec 2015
+TITLE	:CONTROL OF DESIGN & DEVELOPMENT
+Rev. #
+Description of Change
+Clause #
+A
+Initial Release - ISO 9001 : 2015 Requirements
+N.A.
+Prepared and Reviewed By
+________________________________
+(Signature)
+MANAGEMENT REPRESENTATIVE
+_________________________________
+(Designation)
+_____________________________
+(Date)
+Approved By
+________________________________
+(Signature)
+CEO
+_________________________________
+(Designation)
+_____________________________
+(Date)
+1.	Purpose	:	The purpose of this procedure is to define the design and development process for control and verify the design, assign functional responsibilities, define technical interfaces, ensure that the design output meets specified requirements and verify that it meets the design input requirements.
+2.	Scope	:	This procedure applies to all design & development functions where the project is above S$ 30,000/-
+3.	Responsibility	:
+3.1	The Individual Functional Head ( Design & Development) / Project Manager / shall be responsible to ensure proper control over designs & development planning, design inputs, design outputs, changes, reviews, verifications and validations
+3.2	Records shall be established and maintained to provide evidence of conformity to requirements
+4.	Procedure	:
+Planning	Design / Development Planning
+The Individual function head (Design & Development) / Project Manager / Engineers shall plan and control of the design/development phase.
+The Individual function head (Design & Development) / Project Manager / Engineers shall determine the design and development stages such as reviews, verifications and validations activities etc. and the responsibilities and authorities of the Design personnel involved in the design & development work
+On completion, the Individual function head (Design & Development) / Project Manager shall review and approve the Job Order
+The Individual function head (Design & Development) / Project Manager / Engineers shall manage the interfaces between different groups e.g. Approving authorities etc. involved in the design and development to ensure effective communication and clear assignment of responsibility
+The Individual function head (Design & Development) / Project Manager / Engineers shall monitor and report the progress of design and development stages, and update the “Design and Development Plan” as appropriate.
+4.2	Execution
+4.2.1	Design/Development Inputs
+The following design inputs relating to the project requirements shall be forward to Design team:
+Customer needs and expectations
+Functional and performance requirements for the project
+Applicable statutory and regulatory requirements for the project such as applicable standards, statutory/ regulatory requirements
+Other requirements essential for design / planning
+Design team shall review the adequacy of the design inputs and the requirements are complete, unambiguous and not in conflict with each other prior to use and shall highlight any incomplete/ambiguous inputs to the customer.
+The Individual function head (Design & Development)shall liaise with the other members for their requirement and disseminate the information, if necessary.
+4.2.2	Design/Development Outputs
+Design/development outputs may include Design specification ,GUI and coding
+The Individual function head (Design & Development)is to ensure the design outputs are appropriately verified & approved prior to release.
+The Individual function head (Design & Development)shall monitor the progress of the Design team and coordinate the design activities within the Design and Development Plan and the relevant approving authorities/ customer
+The Individual function head (Design & Development)shall ensure that all necessary forms/ records for submission to the authorities requiring endorsement by the owner / customer are correctly completed during the detail design stage if required.
+4.2.3	Design/Development Review
+At suitable stages, systematic reviews of design and development shall be performed by Design team in order to:
+Evaluate the ability of the results of design/development to meet requirements, and
+Identify any problems and propose necessary actions
+The Design team shall forward records of the above reviews to the Individual function head (Design & Development)for their information and/or comments. (Refer to Design & Development change control system- 5. 2) or refer to online version control system.
+4.2.4	Design/Development Verification
+The Individual function head (Design & Development)shall verify the design / development output to ensure that they met the design / development input requirements and in accordance with the Design and Development Plan and design requirement specified in the contract document; otherwise, propose necessary actions to improve the design outputs.
+Individual function head (Design & Development)is to ensure that records of the results of the verification and any necessary actions are maintained by the Design team
+Technical Specifications and calculation that had been reviewed and verified shall bear the official signature(s) of Individual function head (Design & Development)
+4.2.5	Design/Development Validation
+A Design Product Acceptance shall be conducted prior to the delivery via first draft (marketing or annual report design) , LMS testing , UAT (web design, software) etc
+4.2.6	Control of design/development changes
+Upon receipt of request for design changes from the customers, the Project Manager / Engineers will review the request, as appropriate.
+If the design changes are major, new job order will be developed by the Design team to supersede the previous job order .
+If the design changes are minor, the Design team will indicate version accordingly on the affected areas and write down the information of the changes & date of change in the revision column.
+The Individual function head (Design & Development)shall ensure that all parties affected by the design changes are informed.
+All requests for design changes may be recorded in the form of various modes of communications.
+All changes will be controlled by Change Control System.(Appendix 2) or refer to online version control system.
+5.	Reference Quality Records / Forms
+5.1 Design and Development Plan
+5.2 Design and Development Change Control System/ or refer to online version control system.
+5.3	Design and Development Process FlowChart
+5.1	DESIGN AND DEVELOPMENT PLAN
+Product:
+S/No.
+Design Stage
+Key Activity
+Planning Date
+Responsible Person
+Quality Records
+Remarks
+1.
+Design Input
+Collect all inputs /client’s input / data
+Review all inputs
+Revert to client / other parties if discrepancies encountered
+2.
+Design Output (Drafting)
+Develop & design a sample prototype according to client specification for client to review
+3.
+Output Review
+Review of design output
+Ensure :
+(i) design within specs
+(ii) feasibility
+(iii)	review & sign off in output result
+4.
+Design Verification
+Submission to PM for verification & approval
+Amend according to comments received
+5.
+Design Validation
+Verification by client by showing actual design-
+first draft (marketing or annual report design) , LMS testing , UAT (web design, software)
+6.
+Final Approval /
+Design Change Control
+Receive & review design change request
+Advise client of cost implication
+Confirmation by client
+Modify design output as per (2)
+Final product
+S/N
+Specification
+Description
+Date
+Version
+History of Change
+Requested By
+Done By
+5.2	DESIGN AND DEVELOPMENT CHANGE CONTROL SYSTEM
+5.3	DESIGN AND DEVELOPMENT PROCESS FLOWCHART
+(for details refer to the PPT slides by design team)

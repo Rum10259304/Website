@@ -1,0 +1,21 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY MANUAL
+DOC. NO.	:	QM
+REV.	:	A
+SHEET	:	34 OF 36
+ANNEX III : HIERARCHY OF THE QUALITY SYSTEM DOCUMENTATION
+The hierarchy of the quality management system documentation for the company is given as follows :
+Generic Management Standards
+Quality Manual
+Quality Procedures
+Specific Operations Programme / Control Plans
+Improvement Plan
+Operations Control Plan
+Inspection & Test Plan
+Supplier Control Plan
+Internal Audit Programme
+Quality Objectives / Customer Satisfaction Monitoring Plan
+Technical & Legal Documents
+Applicable Drawings / Specifications / Codes / Standards / Regulations
+Management Evidence
+Plans Programmes Quality Records

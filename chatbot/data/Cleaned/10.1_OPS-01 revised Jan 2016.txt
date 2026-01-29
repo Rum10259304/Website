@@ -1,0 +1,150 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-OPS-01
+REV.	:	B
+SHEET	:	6 OF 9
+TITLE	:	OPERATIONS/ PRESERVATIONS CONTROL / ENVIRONMENT FOR THE OPERATION OF PROCESSES / CUSTOMER & EXTERNAL PROVIDER PROPERTY
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-OPS-01
+REV.	:	B
+SHEET	:	1 OF 9
+EFFECTIVE DATE : 1st Dec 2015
+TITLE	:	OPERATIONS/ PRESERVATIONS CONTROL / ENVIRONMENT FOR THE OPERATION OF PROCESSES / CUSTOMER & EXTERNAL PROVIDER PROPERTY
+Rev. #
+Description of Change
+Clause #
+A
+B
+Initial Release - ISO 9001 : 2008 Requirements
+Include requirements of ISO 9001:2015 standard
+N.A.
+4.2.13
+Prepared & Reviewed By
+________________________________
+(Signature)
+MANAGEMENT REPRESENTATIVE
+__________________________________
+(Designation)
+____________________________
+(Date)
+Approved By
+________________________________
+(Signature)
+CEO __________________________________
+(Designation)
+____________________________
+(Date)
+1.	Purpose	:	To define a system :
+to identify and plan operations and ensure that operations processes are carried out under controlled conditions;
+for the identification and traceability of materials / products / documents throughout product realization;
+to manage and control customer’s property;
+to determine and manage the Work Environment needed to achieve conformity to product requirements.
+2.	Scope	:	This procedure applies to the Operations PIC (i.e., CEO, Director of Global Operations, Manager and Consultant).
+3.	Responsibility	:
+The Operations PIC shall be responsible for the planning and management of operations and ensuring that the processes are carried out under controlled conditions.
+The Operations PIC shall be responsible for the identification and traceability of materials / products / documents throughout product realization.
+All Functional Heads shall be responsible for the control of customer property (i.e. intellectual property and personal data)..
+The Operations PIC shall be responsible to determine and manage the work environment needed to achieve conformity to product requirements.
+4.	Procedure	:
+4.1	Planning
+4.1.1	The Operations PIC shall determine quality risk control - based on previous / current information on defects, customer’s satisfaction / dissatisfaction factors (including complaints), nonconforming products, process problems and associated corrective actions.
+4.1.2	The Operations PIC shall initiate preventive actions for inclusion into the (a) Operations Control Plan (process parameters and in-company control limits) - see Annex I.
+4.1.3	Operations & Resource Planning
+.1	The Operations PIC shall plan a “Project Schedule” (see Form No. OPS-QR-01 for sample) to keep track of all orders.
+4.2	Execution
+Upon confirmation of order, the Sales PIC shall generate a Project Schedule (refer OPS-QR-01) to the Operations PIC for onwards execution.
+The Operations PIC shall verify the Project Schedule details for accuracy and completeness.
+The Operations PIC shall determine the required resources and purchasing requirements.
+The Operations PIC shall develop an anticipated schedule, key dates and long-lead time items.
+The Operations PIC shall perform engineering, when necessary.
+The Operations PIC / Purchaser shall proceed with procurement of products based on the product details and specifications.
+The Operations PIC shall ensure that operations processes are according to the Operations Control Plan (see Annex I) and are carried out under controlled conditions which include use of suitable process equipment, suitable working environment, compliance with reference standards / codes and quality plans and workmanship standards.
+The controlled conditions also include documented process control specification and Inspection & Test Plan (refer QP-MMP-01) defining the required monitoring and control of processes and product characteristics.
+For technical project, the Operations PIC shall prepare the “Task Request Form” (see Form No. OPS-QR-02) specifically for ‘Communicate’ Pillar services/ email and pass it to the IT Department for onward execution.
+Upon completion, the IT Department will handover to the Operations PIC.
+4.2.11	Product / Document Identification & Traceability
+.1	Product Identification
+(a)	Identification and traceability of products are achieved through the following data (where applicable) :
+Web Order No.
+Customer’s P.O. / Description
+Customer’s Document No. ( if any)
+Delivery Order No. & Date
+Project Schedule Job Order No. vs Quotation No.
+Product Status
+This information is included in the Web Order / e-mail confirmation of each item for delivery.
+.2	Document Traceability
+With reference to Table 1 - "Document Identification & Traceability Requirements", the responsible personnel shall ensure that the required identifications are recorded on the specified documents to facilitate document traceability.
+4.2.12	Control of Customer Property & External Provider
+.1	Customer Property (Intellectual Property and Data)
+(a)	Customer property shall include intellectual property and data like:
+drawings / specifications
+personal data
+(b)	Upon receipt, the Functional Head shall verify that the correct document / data and contents are received from customer.
+(c)	If not in order or unsuitable for use, the Functional Head shall report this matter to customer.
+(d)	Every care shall be exercised when customer’s documents / data are under company’s custody. Such documents / data shall not be lost or become damaged and be kept and used under strict confidentiality by relevant personnel.
+(e)	If required, at end of use, these customer documents / data shall be returned to customer.
+4.2.13	Environment for the operation of processes
+The Operations PIC shall determine and manage the work environment needed to achieve conformity to product requirement. The Operations PIC will ensure proper management of manpower needs (social and psychological) for operation of processes.
+4.2.14	Complaint Handling
+Refer to QP-SMQ-02 for details on “Customer Feedback / Corrective Action”.
+4.2.15	Expediting / Delivery
+The Operations PIC shall expedite delivery of products to customer. He shall keep track of the delivery date and date of receipt via the delivery deadline.
+4.2.16	Preservations control of documents
+The Operations PIC shall ensure that all delivered data are preserved by backing up into the server for storage upon completion. The server is protected from viruses through an anti-virus software.
+4.3	Monitoring (Checking)
+4.3.1	The Operations PIC shall periodically check the execution of works and its result against the (a) Quality Objectives & (b) Operations Control Plan and maintain records.
+.1	The Operations PIC shall monitor quality inspections, e.g., manufacturer's QC on finished products. He shall also monitor output quantity.
+.2	The Operations PIC shall ensure delivery is in accordance with the delivery deadline.
+4.3.2	The Operations PIC shall perform self-check to confirm that the items stipulated in this procedure are carried out correctly.
+4.3.3	The internal auditor shall audit the operations and this procedure to ensure full conformity.
+4.4	Data Analysis / Corrective Action
+4.4.1	The Operations PIC shall collect relevant data for analysis. The data shall include :
+Customer satisfaction feedback information
+All customer complaints
+Nonconforming product data
+Operations Control Plan result
+Corrective actions taken
+4.4.2	The Operations PIC shall, in his analysis of the above data, look into the root-cause of problems, hence decisions shall be made for effective corrective actions.
+4.4.3	Internal / Process Corrective Action
+Refer to QP-SMQ-02 for details.
+4.4.4	Upon successful closing out of the corrective action, it may be necessary to revise the relevant Quality Procedure.
+4.4.5	This will further result in precautionary training and briefing of the relevant personnel.
+4.4.6	The Operations PIC shall use the revised and updated Quality Procedure to precautionary train, brief and supervise the operation, to prevent recurrence.
+4.4.7	The Operations PIC shall consider self-improvement, after close-out of all nonconformities from internal / external audits, and propose improvement(s) in the Management Review meeting for top management’s approval.
+5.	Reference Quality Records / Forms
+-
+Project Schedule [sample] – via Xtranet
+Task Request Form- via Xtranet
+ANNEX I
+TABLE 1 - DOCUMENT IDENTIFICATION & TRACEABILITY REQUIREMENTS
+S/N.
+Dept / Function
+Document
+Required Identification
+A.
+Sales
+Quotation
+Customer’s P.O.
+Sales Agreement
+Quotation Ref. No.
+Customer’s P.O. No.
+Quotation / P.O. Date
+Project Description
+Contact Person / Company
+B.
+Operations
+Project Schedule
+Web Order
+Documents given by customer for translation
+Work Order No.
+Customer
+Product Description
+Delivery Date
+C.
+QA / QC
+Translator graded examination
+Customer feedback
+Translator’s name
+Translator’s grade
+Type of language capability (for e.g., English, Arabic)

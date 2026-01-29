@@ -1,0 +1,877 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY MANUAL
+DOC NO.	:	QM
+REV.	:	C
+SHEET	:	34 OF 36
+VERZTEC CONSULTING PTE LTD
+QUALITY MANUAL
+DOC NO.	:	QM
+REV.	:	C
+SHEET	:	1 OF 36
+VERZTEC CONSULTING PTE LTD
+QUALITY MANUAL
+DOC NO.	:	QM
+REV.	:	D
+SHEET	:	1 OF 19
+EFFECTIVE DATE :	1st Dec 2016
+Last revised: 2nd SEPT 2024
+Rev. #
+Description of Change
+Clause #
+A
+B
+Initial Release - ISO 9001 : 2008 Requirements
+Included the ISO 9001:2015 requirements
+N.A.
+C
+Revised Annex IV- Business RA to include effectivenss of actions taken / updated relevant requirements to interested party / included management programme table
+D
+Included External issue- Climate change (global warming) affecting businesses direction to go green
+Prepared and Reviewed By
+________________________________
+(Signature)
+MANAGEMENT REPRESENTATIVE
+_______________________
+__________
+(Designation)
+______________________________
+(Date)
+Approved By
+________________________________
+(Signature)
+CEO
+__________________________________
+(Designation)
+______________________________
+(Date)
+SECTION QM-00 : TABLE OF CONTENTS
+PAGE NO.
+QUALITY MANUAL COVER PAGE 1
+TABLE OF CONTENTS 2
+(Section No.)
+QM-01	MANAGEMENT FOREWORD / COMMITMENT 3 - 4
+CUSTOMER FOCUS 5
+QM-02	APPOINTMENT OF THE MANAGEMENT REPRESENTATIVE 6
+QM-03	QUALITY POLICY 7
+QM-04	QUALITY OBJECTIVES 8
+QM-05	INTRODUCTION (ABOUT THE COMPANY) 9 - 10
+COMPANY PROFILE
+SCOPE OF BUSINESS
+APPLICABLE STANDARDS
+PRODUCT / WORK
+TYPICAL BUSINESS PROCESS
+CUSTOMER TYPE
+PERMISSIBLE EXCLUSION
+QM-06	ORGANIZATION STRUCTURE	11 - 13
+COMPANY ORGANIZATION CHART
+QUALITY MANAGEMENT SYSTEM ORGANIZATION CHART
+QM-07	QUALITY MANAGEMENT SYSTEM 14 - 28
+MANAGEMENT RESPONSIBILITY & AUTHORITY
+MANAGEMENT PREVENTION
+MANAGEMENT CONTROL - BY MONITORING & MEASUREMENT
+QM PRINCIPLES
+QMS DOCUMENTATION
+CONTEXT OF ORGANIZATION
+INTERNAL & EXTERNAL COMMUNICATION
+MANAGEMENT REVIEW
+COMPETENCE TRAINING AND AWARENESS
+ORGANIZATION KNOWLEDGE
+INFRASTRUCTURE & ENVIRONMENT FOR OPERATION OF PROCESSES
+OPERATION
+MEASUREMENT, MONITORING , ANALYSIS & EVALUATION
+ANNEX I	PROCESS INTERACTION 29
+ANNEX II	QUALITY RESPONSIBILITIES & AUTHORITIES OF VARIOUS
+FUNCTIONS	30 - 33
+-	QP INDEX
+ANNEX III	HIERARCHY OF THE QUALITY SYSTEM DOCUMENTATION	34
+ANNEX IV	BUSINESS RISK ASSESSMENT	35 - 36
+SECTION QM-01	:	MANAGEMENT FOREWORD / COMMITMENT
+MANAGEMENT FOREWORD / COMMITMENT
+This Quality Manual and its supporting procedures and instructions were developed with reference to the ISO 9001 : 2015
+The Management takes the opportunity to acknowledge the concerted efforts of the following staff and the Consultants CCIS SINGAPORE PTE LTD - for without whom this Quality Manual and its supporting procedures and instructions would not have materialized.
+By operating this documented Quality Management System, we wish to :
+(a)	demonstrate our ability to provide consistently product that meets customer, statutory and regulatory requirements applicable to the product & service, and
+(b)	aims to enhance customer satisfaction through the effective application of the system, including processes for continual improvement of the system and the assurance of conformity to customer, statutory and regulatory requirements applicable to the product & service.
+The Steering Committee appointed by the Top Management and responsible for the development of this manual consists of the following representatives :
+1.	Functional Management
+Name
+Designation
+Mr Nicholas Goh
+CEO
+______________________
+(Signature & Date)
+Ms Jenny Woon
+COO
+______________________
+(Signature & Date)
+SECTION QM-01	:	MANAGEMENT FOREWORD / COMMITMENT
+2.	Top Management
+The top management is committed to the development and improvement of the quality management system by :
+2.1	ensuring customer and applicable statutory and regulatory requirements are identified and met, to enhance customer satisfaction;
+2.2	communicating to the organization the importance of meeting customer as well as applicable statutory & regulatory requirements;
+2.3	establishing the quality policy and quality objectives;
+2.4	ensuring planning & integrity of the Quality Management System (QMS);
+2.5	ensuring Responsibility & Authority are defined & communicated;
+2.6	appointing management member(s) as management representative(s);
+2.7	conducting management review;
+Ensuring the integration of the quality management system requirements into the organization’s business processes;
+Promoting the use of the process approach and risk-based thinking;
+Ensuring that the resources needed for the quality management system are available;
+Communicating the importance of effective quality management and of conforming to the quality management system requirements;
+Ensuring that the quality management system achieves its intended results;
+Engaging, directing and supporting persons to contribute to the effectiveness of the quality management system;
+Promoting continual improvement;
+Supporting other relevant management roles to demonstrate their leadership as its applies to their areas of responsibility.
+Taking accountability for the effectiveness of the quality management system;
+Ensuring that the quality policy and quality objectives are established for the quality management system and are compatible with the context of the organization;
+_______________________________________
+___________________________
+(Signatory)
+(Date)
+CEO
+VERZTEC CONSULTING PTE LTD
+SECTION QM-02 : APPOINTMENT OF MANAGEMENT REPRESENTATIVE
+CUSTOMER FOCUS
+Top management will demonstrate leadership and commitment with respect to customer focus by ensuring that:
+Customer and applicable statutory and regulatory requirements are determined, understood and consistently met
+The risks and opportunities that can affect conformity of products and services and the ability to enhance customer satisfaction are determined and addressed
+The focus on enhancing customer satisfaction is maintained
+MANAGEMENT REPRESENTATIVE(S)
+(not required in ISO9001:2015 version)
+Although relevant staffs will be assigned with responsibilities and authorities, CEO will appoint an overall-in-charge assisting in ensuring QMS requirements are established implemented and maintained. Such overall-in-charge will be designated as Management Representative (MR).
+The Top Management hereby appoint a member of the organization’s management/
+Ms Jenny Woon
+(Name)
+COO
+(Designation)
+as the Management Representative (MR), and assign her the authority and responsibility for the successful implementation and maintenance of the entire Quality System covered in this Quality Manual; and
+(Name)
+(Designation)
+as the Deputy Management Representative (DMR) to assist the Management Representative in carrying out her task. In the absence of the Management Representative, the Deputy Management Representative will take over the full authority and responsibility of the Management Representative.
+The Management Representative(s) shall :
+.1	ensure that processes needed for the Quality Management System (QMS) are established, implemented and maintained;
+.2	report to top management on the QMS performance and any need for improvement;
+.3	ensure promotion of awareness of customer requirements throughout the organization;
+.4	liaise with external parties on matters relating to the QMS.
+_______________________________________
+___________________________
+(Signatory)
+(Date)
+CEO
+VERZTEC CONSULTING PTE LTD
+SECTION QM-03	: QUALITY POLICY
+QUALITY POLICY
+The Management and Staff of VERZTEC CONSULTING PTE LTD are committed to achieve Enhanced Customer Satisfaction by satisfying applicable requirements and Continual Improvement of the Quality Management System through :
+1.	On-Time Delivery
+2.	Quality Service
+We shall work as a team to constantly maintain and continually improve our management quality – using ISO 9001 : 2015 Quality Management System as a management tool.
+_______________________________________
+___________________________
+(Signatory)
+(Date)
+CEO
+VERZTEC CONSULTING PTE LTD
+Footnotes :
+This Policy provides a framework for establishing and reviewing our Quality Objectives;
+It shall be communicated , understood and applied within our organization;
+We shall review it for continuing suitability.
+The quality policy will be available and be maintained as documented information;
+The quality policy will be available to relevant interested parties, as appropriate.
+SECTION QM-04	:	QUALITY OBJECTIVES
+QUALITY OBJECTIVES
+The Management team shall strive to achieve the following Quality Objectives :
+1.	100% on-time on latest agreed delivery date
+2.	Client Overall Satisfaction feedback quality of at least 7/10
+3.	At least one client testimonial per quarter
+Individual Functional Heads shall display the above charts, and act to assure favourable trend of the Quality Objectives – as revealed by the monthly charts.
+QUALITY MANAGEMENT PROGRAMME (2016- 2017)
+INITIATED &
+REVIEWED BY MR
+APPROVED BY CEO
+Signature
+signature
+OBJECTIVES
+(+ 12 months)
+BASIS
+(WHO) DOES - WHAT
+(WHO) CHECKS
+APPLICABLE RECORDS
+100% on-time on latest agreed delivery date
+Completion of projects
+Project Team
+MR
+Monitoring acknowledgements of service completion reports
+Client Overall Satisfaction feedback quality at least 7/10
+One testimonial per quarter
+Completion of service contracts
+Complation of project
+Sales Personnel/ System auto send out survey link
+Project Team
+MR
+MR
+Track in the system online
+Track in the system online
+_______________________________________
+___________________________
+(Signatory)
+(Date)
+CEO
+VERZTEC CONSULTING PTE LTD
+Footnotes :
+We are committed to continual improvement of our Quality Objectives.
+We shall also plan our Operations to meet the product / service requirements.
+The Quality Objectives will be consistent with the Quality Policy, be measurable, monitored, updated and communicated to all interested parties.
+The Quality Objectives are relevant to conformity of products and services and to enhancement of customer satisfaction.
+Verztec Consulting Pte Ltd shall maintain documented information on the quality objectives.
+When planning how to achieve its Quality objectives, Verztec Consulting Pte Ltd will determine:
+What will be done
+What resources will be required
+Who will be responsible
+When it will be completed
+How the results will be evaluated.
+When Verztec Consulting Pte Ltd determines the need for changes to the Quality management system, the changes will be carried out in a planned manner and the following will be considered:
+The purpose of the changes and their potential consequences
+The integrity of the quality management system
+The availability of resources
+The allocation or reallocation of responsibilities and authorities.
+SECTION QM-05 : INTRODUCTION (ABOUT THE COMPANY)
+INTRODUCTION (ABOUT THE COMPANY)
+1.	Company Profile
+We are a customer-focused organization. Verztec is dedicated in delivering globalization solutions that satisfy our customers' business imperatives. We conduct customer satisfaction surveys and use the feedback to tune our business so that we are continuously improving our ability to support our customers. We work collaboratively with our customers to innovate as this forms a significant part of our business model.
+2.	Scope of Business
+Our scope of business includes :
+Localization and Translation, Interpretation, Internationalization, Software Localization & Testing, Website Localization, e-Learning and Training applications, Audio Recording,  Multilingual Desktop Publishing, Transcription, Globalization Consulting and Web Engineering, Design and development of annual reports, marketing collaterals, websites, e-Learning etc.
+When determining this scope, Verztec Consulting Pte Ltd will consider:
+The external and internal issues referred to in Section 7, item 6;
+The requirements of relevant interested parties referred to in Section 7, item 6;
+The products and services of the organization.
+3.	Applicable Standards
+Applicable standards include :
+SS ISO 9000 :	2015	Quality Management Systems – Fundamentals and Vocabulary
+SS ISO 9001	:	2015 Quality Management Systems – Requirements
+4.	Product / Work
+4.1	Product
+Our products include :
+Publishing
+Hosting
+4.2	Work
+Our work include :
+Multilingual desktop publishing (handled in house and also outsourced)
+translation (outsourced)
+Audio Recording (Voice Over)
+interpretation project management
+localization
+internalization
+e-Learning and development
+Design and development of annual reports, marketing collaterals, websites etc
+SECTION QM-05 : INTRODUCTION (ABOUT THE COMPANY)
+5.	Typical Business Process
+Our typical work / business process includes :
+Sales enquiry and handling
+Prepare quotation
+Kick-off job for translation by sending files to translators
+1	Deliver back to client if word document by CD / email / ftp
+2	If other formats, re-engineer files into specific format and outsource if needed
+Please refer to Annex I for management process interaction for the Quality Management System (QMS).
+6.	Customer Type
+Our customers include :
+MNCs
+SME
+Government
+Associations
+7.	Permissible Exclusion
+The following ISO 9001: 2015 elements are not applicable to us :
+Design & Development (ISO Clause 7.3) is not applicable to our Company as the nature of our service does not include any design for client.
+Validation of Processes (8.3.4 Design and development controls) is not applicable as there is no special process in the company where the resulting output cannot be verified by subsequent monitoring or measurement.
+Control of Monitoring & Measuring Devices (7.1.5 Monitoring and Measuring Resources) is not applicable as we do not use monitoring & measuring devices in our operations.
+SECTION QM-06 : ORGANIZATION STRUCTURE
+COMPANY ORGANIZATION CHART
+QA / QC
+CEO
+Finance
+Accounts
+COO
+Business Development
+Business Development Executive
+Business Development Manager
+Marketing
+Marketing Executive
+Marketing Manager
+Web Developer
+Applications Engineer
+IT Team Leader
+Designer
+IT
+Multimedia Developer
+Admin Officer
+Resource Coordinator
+Procurement
+Translators
+Project Management
+Script Writers
+Director and Managers
+Senior Consultant
+Consultants
+Admin & Operations
+COO
+Admin & receptionist
+Snr Operations Manager
+Snr Operations Manager
+Human Resource
+Service Delivery
+This page is left blank
+SECTION QM-06 : ORGANIZATION STRUCTURE
+2.	The Quality Management System organization chart of the company is provided as follows :
+VERZTEC CONSULTING PTE LTD
+QUALITY MANAGEMENT SYSTEM ORGANIZATION CHART
+CEO
+Management Representative /
+Deputy Management Representative
+Document Controller
+Internal Audit Team
+SECTION QM-07	:	QUALITY MANAGEMENT SYSTEM
+1.	Management Responsibility & Authority
+1.1	The Organization has established the relevant processes needed for the QMS and also the 'Quality Responsibilities' of various management authority are given in Annex II of this Quality Manual – see “Function” flow column. It also addresses the 'sequence' of QMS processes;
+1.2	The persons-in-charge (PIC’s) responsible for the respective management functions are detailed under the “AUTHORITY” column;
+1.3	The quality responsibilities of the various persons-in-charge (PIC’s) are detailed under the “QUALITY RESPONSIBILITY” column;
+1.4	The applicable Quality Procedures for the respective persons-in-charge (PIC's) are given under the "QP REF." column to address the 'interaction' of various processes in the QMS;
+1.5	The respective persons-in-charge (PIC’s) shall in their daily management - act to ensure coverage of the “QUALITY RESPONSIBILITY” - by conforming to the applicable Quality Procedures;
+1.6	The respective persons-in-charge (PIC’s) shall drive for management performance - by undertaking effective management actions to meet the performance standards required by (1) specific quality plan, (2) company quality objectives and (3) ISO requirements.
+1.7	The top management shall conduct management review to drive for continual improvement in QMS effectiveness and performance efficiency, by data analysis.
+1.8	Top management shall ensure that the responsibilities and authorities for relevant roles are assigned, communicated and understood within the organization.
+1.9 Top management shall assign the responsibility and authority for:
+Ensuring that the QMS conforms to the requirements of this International Standard;
+Ensuring that the processes are delivering their intended outputs;
+Reporting on the performance of the QMS and on opportunities for improvement, in particular to top management;
+Ensuring the promotion of customer focus throughout the organization;
+Ensuring that the integrity of the quality management system is maintained when changes to the quality management system are planned and implemented.
+CEO will also be accountable for the effectiveness of the quality management system.
+2.	Management Prevention
+The respective Management shall, where practicable, assess the associated product / service risks, basing on data / records and before implementation - to institute necessary controls of the work processes for assured quality products & services, by preventing risk occurrence.
+3.	Management Control - by Monitoring & Measurement
+The respective Management shall ensure proper quality monitoring & measuring as follows :
+3.1	Customer Satisfaction	-	by Customer Satisfaction Monitoring Plan
+3.2	System (effectiveness) -	by Internal Audit Programme
+3.3	Process	-	by Operations Control Plan
+3.4	Supplier	-	by Supplier Control Plan
+3.5	Product	-	by Inspection & Test Plan
+The respective Management shall, for any nonconformities arising from monitoring & measurement, conduct a root-cause analysis based on actual data / records to assure effective corrective action(s) and no risk recurrence.
+SECTION QM-07	:	QUALITY MANAGEMENT SYSTEM
+4.	QM Principles
+The management shall lead the organization towards improved result performance and system effectiveness by using the ISO 9001 : 2015 guidelines and the seven QM Principles to improve the QUALITY of MANAGEMENT for consistent achievement of higher performance, namely :
+Customer focus
+Organizations depend on their customers and therefore should understand current and future customer needs, should meet customer requirements and strive to exceed customer expectations.
+Leadership
+Leaders establish unity of purpose and direction of the organization. They should create and maintain the internal environment in which people can become fully involved in achieving the organization’s objectives.
+Engagement of people
+People at all levels are the essence of an organization and their full involvement enables their abilities to be used for the organization’s benefit.
+Process approach
+A desired result is achieved more efficiently when activities and related resources are managed as a process.
+Improvement
+Improvement of the organization’s overall performance should be a permanent objective of the organization.
+Evidence- based decision making
+Effective decisions are based on the analysis of data and information gathered as evidence
+Relationship management
+An organization and its external providers are interdependent and a mutually beneficial relationship enhances the ability of both to create value.
+5.	QMS Documentation
+The hierarchy of the QMS documentation is given in Annex III of this Manual.
+Verztec Consulting Pte Ltd will establish, implement and maintain a documented control procedure to ensure that all necessary QMS documents and record (also referred to as docuemtned information) are:
+Adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity).
+Properly store and preserved
+Properly retained according to retention schedules
+Properly disposed
+Able to be located and legible
+Periodically reviewed, revised as necessary and approved by the appropriate level of management
+Available and suitable for use, where and when it is needed
+Promptly removed from all points of issue when obsolete
+For documented information of external origin (including customer documents related to QMS, it should be properly identified and their distribution controlled.
+Creating and updating
+When creating and updating documented information, Verztec Consulting Pte Ltd will ensure appropriate:
+Identification and description (e.g. a title, date, author, or reference number)
+Format (e.g. language, software version, graphics) and media (e.g. paper, electronic)
+Review and approval for suitability and adequacy.
+Context Of The Organisation
+6.1 Understanding the organisation and its context
+The following are the issues of concern which have or may have an impact that are relevant to our product or services and that could affect our ability to achieve the intended outcomes of the Quality management system. Verztec Consulting Pte Ltd will monitor and review information about these external and internal issues on a yearly basis.
+Internal Issues
+Type
+Internal Issue
+Effect
+Technical Capability
+We have the technical capability to consistently deliver our scope of product or services.
+Beneficial
+Materials & Equipment
+We are able to provide our services with our existing inventory of materials and equipment without affecting the outcome of Qualitymanagement system.
+Beneficial
+Employees
+Employee turnover is low.
+Beneficial
+Employees
+New Employee needs constant guidance to meet our commitment for QMS.
+Adverse
+External Issues
+Type
+External Issue
+Effect
+Competitiveness
+We are in a highly competitive industry with competitors providing cheap services.
+Adverse
+Social & Cultural Diversity
+We are operating in a multi-cultural country without significant issues that will affect our product or services.
+Beneficial
+Political stability
+We are operating in a political stable country with fair business requirement.
+Beneficial
+Employees
+Availability of skilled workforce in our business is adequate.
+Beneficial
+Legal Requirements
+We have identified all applicable legal requirements and are in compliance to these requirements
+Beneficial
+Climate changes
+Climate change (global warming) affecting businesses direction to go green – more digital courses
+Beneficial
+6.2. Understanding the needs and expectations of interested parties
+The following are our identified interested parties who can affect, be affected by, or perceived to be affected during the delivery of our product or services.
+Interested Party
+Internal or External
+Reason for Interest
+Relevant requirements
+Customers
+External
+Direct recipient of our product or services.
+Contractual requirement from customer
+Such as deliver service on time as per client agreement
+Ensure quality /quantity of work meets client requirement
+Employees
+Internal
+Responsible for realization of our product or services.
+Organization requirements which meets employees contracts
+Verztec to ensure staff are trained, recruit only competent staff, prompt payment of salary, career progression, enhance staff competency through training
+Provide clear instruction and SOP
+Vendors / external providers
+External
+Provide supporting services, materials or equipment
+Organization requirements for vendors / external providers
+Verztec to ensure external provider are paid on time after they deliver their services
+Communicate significant quality related information to them
+Suppliers (vendors) - External Provide supporting services or raw materials; prompt payment, clear requirements / specifications, encourage suppliers to offer green products in support of protection against climate change
+Regulators
+External
+Dictate controlling regulations that impact on the management system and our product or services.
+Organization’s applicable legal requirements that needs to be in compliance
+Such as WSH Act, Data protection requirements
+Certification Bodies
+External
+Assess conformity of our Quality management system to ISO Standards.
+Requirements from the ISO Standards that the Organization will conform to
+Such as ISO 9001:2015 requirements
+Competitors
+External
+Provide challenges to our ability to provide products or Services to customers.
+Requirements to be competitive and meet customer requirements
+Verztec Consulting Pte Ltd will determine the processes needed for the Quality management system and their application throughout the organization, and will:
+Determine the inputs required and the outputs expected from these processes;
+Determine the sequence and interaction of these processes
+Determine and apply the criteria and methods (including monitoring, measurements and related performance indicators) needed to ensure the effective operation and control of these processes
+Determine the resources needed for these processes and ensure their availability
+Assign the responsibilities and authorities for these processes
+Address the risks and opportunities as determined
+Evaluate these processes and implement any changes needed to ensure that these processes achieve their intended results
+Improve the processes and the Quality management system
+Verztec Consulting Pte Ltd will maintain and retain documented information to support the operation of its processes. Refer to Annex I-Management Process Interaction
+6.3	Actions to address Risks and Opportunities
+Verztec Consulting Pte Ltd will establish, implement and maintain necessary processes required for identifying compliance obligations and planning actions to address risk & opportunities.
+Moreover, Verztec Consulting Pte Ltd will consider internal & external issues; needs of the interested parties; and scope of Quality management system identified during the planning of its Quality management system.
+Risk and opportunities related to its compliance obligations; and other issues related to its business process will be determined so as to ensure its Quality management system could achieve its intended outcomes. Moreover, such determination will also ensure undesired effects affecting Verztec Consulting will be prevented or reduced so as to achieve continual improvement and ensure to enhance desirable effects.
+All documented information related to compliance obligations; and risk & opportunities will be maintained properly. Refer to the Annex IV in the Quality Manual for the business risk assessment.
+6.4 Planning Action
+Verztec Consulting Pte Ltd will plan to take actions to address compliance obligations and identified risks and opportunities.
+Verztec Consulting Pte Ltd will consider the technological options and its financial, operational and business requirements when planning the actions.
+Verztec Consulting Pte Ltd will Integrate and implement the actions into its Quality management system processes and evaluate the effectiveness of these actions.
+Actions taken to address risks and opportunities will be proportionate to the potential impact on the conformity of products and services.
+Following relevant processes will be integrated as part of effective implementation of Quality management system:
+Quality objectives
+Resources
+Competence
+Awareness
+Communications
+Documented information
+Operational planning and control
+Monitoring, measurement, analysis and evaluation
+Verztec Consulting Pte Ltd will determine and provide the resources / persons needed for the establishment, implementation, maintenance and continual improvement of the Quality management system. This is to ensure the effective implementation of its Quality management system and for the operation and control of its processes. The following is considered:
+The capabilities of, and constraints on, existing internal resources;
+What needs to be obtained from external providers
+7	Internal and external communication
+Verztec Consulting Pte Ltd management recognizes the importance of good internal and external communication in ensuring the effectiveness of the quality management system. It has established both top-down and bottom-up channels for management and employee to interact, to transmit and to receive important information regarding daily operations and the effectiveness of the quality management system. Procedures clearly document the various interfaces between doers of tasks and the relevant colleagues along process flows.
+While establishing its communication processes, Verztec Consulting Pte Ltd will take into account its compliance obligations; ensuring the information communicated is consistent with information generated within its Quality management system; and is reliable.
+Where relevant, communication on its Quality management system will be responded and documented.
+Receiving, documenting and responding to relevant communications with external interested parties
+Determining what, when, how and with whom communication will be done
+MR / Individual function heads / Project Managers will be responsible to ensure all information are reliable before communicating to the targeted person / party.
+The following table summarized the communication process:
+Information to be Communicated
+Frequency of Communication
+Targeted Person / Party Receiving Information
+Method of Communication
+Significant QMS matters
+Newly identified
+As & when revised
+Employees
+Vendors performing work on behalf of Verztec
+New Employees Orientation
+Departmental Meeting
+Emailing
+Quality Related Operational Control Procedures
+Newly established
+As & when revised
+Employees
+Vendors performing work on behalf of Verztec
+New Employees Orientation
+Departmental Meeting
+Emailing
+License / Permit Related Information
+As & when required
+Relevant Regulatory body
+Emailing
+Letter
+QMS Policy
+As & when revised
+Employees
+Vendors performing work on behalf of Verztec
+New Employees Orientation
+Departmental Meeting
+Emailing
+Applicable Legal Obligations
+Newly identified
+As & when revised
+Employees
+Emailing
+QMS Objectives
+Newly established
+As & when revised
+Employees
+New Employees Orientation
+Departmental Meeting
+Emailing
+Results of QMS Monitoring
+As & when required
+Employees
+Departmental Meeting
+Emailing
+Contractual requirement from customer
+As & when required
+Customers
+Emailing
+Contract agreement
+Meeting
+Organization requirements which vendors / external providers need to follow
+Newly identified
+As & when required
+Vendors / external providers
+Emailing
+Contract agreement
+Meeting
+Organization requirements which employees need to follow to ensure QMS conformance
+As & when required
+Employees
+Training
+briefing
+Requirements from the ISO Standards that the Organization will conform to
+As & when required
+Certification Bodies
+Emailing
+Meeting
+Requirements to be competitive and meet customer requirements
+As & when required
+Individual function heads
+Emailing
+Meeting
+8.	Management review
+Verztec Consulting Pte Ltd Top Management will conduct a review of the QMS at planned intervals its continuing suitability, adequacy and effectiveness. The annual review evaluates the need for changes to the organization's QMS, including its quality policy and quality objectives.
+8.1	Review Input
+Inputs to management review include but are not limited to current performance and improvement opportunities related to the following:
+The status of actions from earlier management reviews;
+Changes in external and internal issues that are relevant to the Quality management system;
+Adequacy of resources;
+The effectiveness of actions taken to address risks and opportunities;
+Opportunities for improvement;
+QMS performance and effectiveness of QMS including trends in:
+The performance of external providers;
+Nonconformities and corrective actions;
+Monitoring and measurement results;
+The extent to which quality objectives have been met;
+Results of audits;
+Customer satisfaction and Feedback from relevant interested parties;
+Process Performance and Product / Service Conformity
+8.2 Review Output
+The outputs from the management review include but are not limited to decisions and actions related to:
+Any need for changes to the QMS;
+Opportunities for Improvement;
+Resource needs.
+Results of management reviews are recorded.
+9.	Competence, Training and Awareness
+Verztec Consulting Pte Ltd establishes implements and maintains procedures for:
+Establishing competence requirements especially of those activities that affect the QMS performance and effectiveness;
+Identifying the training needs and establishing training plan;
+Ensuring persons doing work under Verztec Consulting Pte Ltd’s control are aware of QMS policy,
+QMS Objectives, their contribution to the effectiveness of Quality management system including the benefits of improved performance and implications of not conforming to QMS requirements;
+Ensure that these persons are competent on the basis of appropriate education, training, or experience
+Ensuring appropriate QMS training and evaluate the effectiveness of the training; and
+Maintaining training records.
+10.	Organizational knowledge
+Verztec Consulting Pte Ltd will determine the knowledge necessary for the operation of its processes and to achieve conformity of products and services.
+This knowledge will be maintained and be made available to the extent necessary.
+When addressing changing needs and trends, Verztec Consulting Pte Ltd will consider its current knowledge and determine how to acquire or access any necessary additional knowledge and required updates.
+Infrastructure and environment for the operation of processes
+Verztec Consulting Pte Ltd shall identify and provide adequate facilities to achieve the conformity of products and services, including:
+Office or other work areas;
+Office equipment, including computer hardware and software;
+Electronic/internet;
+Verztec Consulting Pte Ltd shall ensure that the physical and human factors in the work environment are identified and managed to achieve the conformity of services. These include:
+Consideration for employee safety when undertaking any tasks at the office and customer premises;
+Maintaining a suitable working environment suitable for all employees.
+Operation
+12.1	Operation Planning and Control
+Verztec Consulting Pte Ltd shall plan, implement and control the processes needed to provide the product/services and determine how each process affects the ability to meet service requirements through process matrices.
+The output of this planning will be suitable for Verztec Consulting Pte Ltd operations.
+Verztec Consulting Pte Ltd will control planned changes and review consequences of unintended changes, taking action to mitigate any adverse effects and ensure outsourced processes are controlled.
+12.2	Requirements for Products and Services
+Customer Communication
+The Organization shall identify and implement programmes relating to Customer communication/Customer satisfaction such as:
+Organization brochures
+Website
+Meetings
+email
+Complaint /Customer satisfaction survey
+Visits by Top Management
+Communication with customers will include:
+Providing information relating to products and services;
+Handling enquiries, contracts or orders, including changes;
+Obtaining customer feedback relating to products and services, including customer complaints;
+Handling or controlling customer property;
+Determinination of Requirements for Product and Service
+Verztec Consulting Pte Ltd shall determine Customer requirements including:
+Product/Service requirements specified by the Customer, including the requirements for availability and delivery of services;
+Product/Service requirements not specified by the Customer but mandatory(applicable statutory and regulatory requirements) to carry out the service; and
+Any additional requirements as determined by the Company internally.
+Review of Requirements Related for Product and Service Changes to Requirements for Products and Services
+Verztec Consulting Pte Ltd will review the identified Customer requirements and any other requirements related to the Product/Service to ensure that, prior to commitment to the provision of the service to the Customer:
+Product/Service requirements are defined including requirements for delivery and post-delivery activities
+Requirements specified by Verztec Consulting Pte Ltd
+Applicable Statutory and regulatory to the products and services
+Customer requirements differing from those previously expressed are resolved;
+Verztec Consulting Pte Ltd has the ability to meet defined requirements;
+Where the Customer provides no documented statement of requirement, the Customer requirements are confirmed before acceptance;
+Where Product/Service requirements are changed, Verztec Consulting Pte Ltd will ensure that relevant documentation is amended and relevant personnel are informed of the changes;
+The results of the review and subsequent follow-up actions shall be recorded as part of the QMS records.
+Customer Satisfaction
+The Management and MR shall monitor pertinent information on Customer satisfaction and/or dissatisfaction on a periodic basis via one or more of the following means:
+Customer satisfaction surveys conducted by the Indvidual function head / designate at the end of each financial year for Customers.
+Customer satisfaction performance indices will be monitored periodically.
+Customer complaints to be funnelled into Non-conformity/Corrective Action Reports (CARs) for the Management’s review and appropriate actions.
+The MR shall collate all the Customer information to facilitate data analysis for determining causal effect on problems and/or on areas for improvement to the management system.
+12.3 Design and Development of Products and Services
+As part of the contract agreement, a decision will be made between the customer and company as to which will have responsibility for the design process. Nominated qualified persons will form a team to agree on a design plan that will consist of:
+Inputs & outputs
+Design & Development controls
+Control of changes to Design & Development
+12.4	Control of Externally Provided Processes, Products and Services
+Purchasing Process
+Verztec Consulting Pte Ltd has controlled purchasing processes to ensure externally provided processes, products services conform to requirements. The type and extent of control applied to the external providers depends on the effect or importance of the externally provided processes, products or service rendered to the customer.
+The organization shall evaluate and select suppliers/contractors based on their ability to supply service in accordance with Verztec Consulting Pte Ltd requirements, taking into consideration the Customer’s needs. Pre-qualification and track record assessment are to be conducted as selection criteria.
+Information for External Providers / Type & Extent of Control
+Purchasing documents shall contain adequate information describing the processes, product or service to be purchased and any other specified requirements, including where appropriate:
+Requirements for approval or qualification of service, procedures, processes and equipment.
+12.5	Release of Products and Services
+Verztec Consulting Pte Ltd has identified and implemented the activities necessary for verification of purchased services in order to ensure that the service or service meets specified purchase requirements.
+Inspection and Testing
+Products and Services are duly monitored to specified requirements, and necessary controls are taken to achieve and maintain the required Customer requirements.
+Handling, Storage, Packaging, Preservation
+Handling of Information
+For soft copies of documents stored in the servers, only employee with appropriate access rights or designated security passwords can handle these documents. For hardcopy documents, proper filling has to be done.
+12.6	Product/Service Provision
+Control of Production and Service Provision
+Verztec Consulting Pte Ltd will implement production and service provision under controlled conditions. Controlled conditions will include, as applicable:
+The availability of documented information that defines:
+The characteristics of the products to be produced, the services to be provided, or the activities to be performed
+The results to be achieved
+The availability and use of suitable monitoring and measuring resources
+The implementation of monitoring and measuring activities at appropriate stages to verify that criteria for control of processes or outputs, and acceptance criteria for products and services, have been met
+The use of suitable infrastructure and environment for the operation of processes
+The appointment of competent persons, including any required qualification
+The validation, and periodic revalidation, of the ability to achieve planned results of the processes for production and service provision, where the resulting output cannot be verified by subsequent monitoring or measurement
+The implementation of actions to prevent human error
+The implementation of release, delivery and post-delivery activities.
+12.7 Control of Nonconforming Outputs
+Verztec Consulting Pte Ltd will ensure that outputs that do not conform to their requirements are identified and controlled to prevent their unintended use or delivery.
+Verztec Consulting Pte Ltd will take appropriate action based on the nature of the nonconformity and its effect on the conformity of products and services. This will also apply to nonconforming products and services detected after delivery of products, during or after the provision of services.
+Verztec Consulting Pte Ltd will deal with nonconforming outputs in one or more of the following ways:
+Correction, Segregation, containment, return or suspension of provision of products and services; informing the customer; obtaining authorization for acceptance under concession.
+Conformity to the requirements will be verified when nonconforming outputs are corrected.
+Verztec Consulting Pte Ltd will retain documented information that:
+Describes the nonconformity
+Describes the actions taken
+Describes any concessions obtained
+Identifies the authority deciding the action in respect of the nonconformity.
+12.8 Identification and Traceability
+Verztec Consulting Pte Ltd ensures that all contract services are adequately identified by suitable means throughout the process. The department also provides for physical traceability (identification of contract by company name).
+Non-conforming services are traceable through this means of identification (NCARs). Customer correspondence and contractual documents are also filed using this system of identification for ease of retrieval.
+12.9	Property Belonging to Customer or External Providers
+Verztec Consulting Pte Ltd shall exercise due care with all Customers’ or external providers property while it is under their control or been used by the staff. Verztec Consulting Pte Ltd shall identify, verify, protect and safeguard all Customer or external providers’ property provided for use or incorporation into the site operation/service. If any of the Customer or external provider’s property is lost, damaged or found unsuitable for use, Verztec Consulting Pte Ltd shall report this to the Customer or external providers and maintain records.
+12.10	Preservation / Post Delivery Activities
+Verztec Consulting Pte Ltd shall preserve conformity of products or services with special attention to specific Customer requirements.
+Post-delivery activities
+Verztec Consulting Pte Ltd will meet requirements for post-delivery activities associated with the products and services. Post-delivery activities can include actions under warranty provisions, contractual obligations such as maintenance services, and supplementary services such as recycling or final disposal.
+In the determining the extent of post-delivery activities that are required, Verztec Consulting Pte Ltd will consider:
+Statutory and regulatory requirements;
+The potential undesired consequences associated with its products and services;
+The nature, use and intended lifetime of its products and services;
+Customer requirements;
+Customer feedback.
+Control of changes
+Verztec Consulting Pte Ltd will review and control changes for production or service provision, to the extent necessary to ensure continuing conformity with requirements.
+Documented information describing the results of the review of changes, the person(s) authorizing the change, and any necessary actions arising from the review will be retained.
+12.11	Monitoring and Measuring Resources
+The organization conducts its business in a well-furnished office, with meeting rooms and laptops running customised software. Some Employee has a workstation with computers linked to the internet through centralized servers. Cleaning services ensure that the office areas, including the meeting rooms are kept clean and tidy, maintaining an image of professionalism.
+At the office, employees are equipped with necessary equipment, communication or information system facilities to ensure service requirements are met.
+When measurement traceability is required, measuring equipment will be calibrated at specified intervals against measurement standards traceable to international measurement standards. Such calibration records will be maintained.Currently such calibration equipment are not used.
+13	Monitoring, Measurement, Analysis and Evaluation
+13.1	General
+Verztec Consulting Pte Ltd defines, plans, and implements the measurement and monitoring activities needed to ensure conformity and achieve improvement.
+The management team shall define and review the Policy and Objectives at the management review meeting for its relevance to the business.
+13.2	Analysis and Evaluation
+Verztec Consulting Pte Ltd recognizes the importance of data collection and analysis to help in decision-making and identify areas for improvement. In its drive to excel, the organization undertakes the following measurements:
+Customer Satisfaction
+Internal audit
+Monitoring of Processes
+Monitoring and Measurement of Service
+Control of non- conforming service
+The results of the analysis will be used to evaluate:
+Conformity of products and services
+Degree of customer satisfaction
+Performance and effectiveness of QMS
+If planning is implemented effectively
+Effectiveness of actions to address risks and opportunities
+Performance of external providers
+Need for improvement of QMS
+13.3	Internal Audit
+Verztec Consulting Pte Ltd will conduct audits of the QMS management system at least once a year to:
+Establish the degree of conformance with the documented QMS;
+Determine whether the system is effective in meeting the objectives and targets;
+Evaluate all elements of the QMS considered;
+Ensure QMS is conforming by all employees.
+QMS deficiencies will be documented and prioritised for corrective action and preventive action.
+13.4	Non-Conformity and Corrective Action
+Verztec Consulting Pte Ltd shall establish, implement and maintain a procedure for identifying non-conformances and the requirements of corrective and preventive actions related to QMS deficiencies giving due consideration to:
+The magnitude of the problem;
+Adequacy of the corrective actions;
+Evaluate the root cause;
+Reviewing the effectiveness of corrective actions taken;
+Recording and communicating the results of corrective actions taken.
+Continual Improvement
+Verztec Consulting Pte Ltd will continually improve the suitability, adequacy and effectiveness of the Quality management system to enhance QMS performance.
+ANNEX IV BUSINESS RISK ASSESSMENT
+Business Risk Assessment & Control
+Company:
+Verztec Consulting Pte Ltd
+Conducted by:
+(Names, Designations & Date.
+Jenny Woon (COO)
+10 Jan 2016
+Process
+Operations-Business
+Approved by:
+(Name, Designation, & Date)
+Mr Nicholas Goh (CEO)
+10 Jan 2016
+Last Review Date:
+10 Jan 2016
+Next Review Date:
+09 Jan 2019
+1. Identification of Potential Risk or Opportunity
+2. Risk Evaluation & Risk Control
+1a.
+1b.
+1c.
+1d.
+2a.
+2b.
+2c.
+2d.
+No.
+Process Activity
+Risk
+Impact
+Existing Risk Control
+(if any)
+Severity
+Likely-hood
+Risk Level
+Method of evaluation and its effectiveness
+1.1
+Daily operations of Company
+Adverse business environment-Economic downturn / Recession/
+Political instability/ Major changes in legal requirements
+Loss of business
+Review the internal and external issues during Management Review meeting
+conduct market price survey.
+enhance business promotion schemes
+Amend contract agreement to ensure changes to legal requirements are factored in
+3
+1
+3
+Respective department heads will monitor and track their KPI and so far it is effective
+Seen survey , business enhancement schemes and amended contract agreements upon changes in legal requirements
+Social & Cultural Diversity
+Loss of business
+Company is operating in a multi-cultural country without significant issues that will affect our product or services.
+3
+1
+3
+Currently no action required
+1.2
+Daily operations by competent staff
+Staff turnover
+Loss of competent manpower that could affect the daily operations
+Provide safe and healthy workplace, enhance skills by training, family life balance work schedule, incentives for good performance
+Competency of staff is maintained by training needs analysed-see training matrix
+Training evaluation and appraisal will measure the competency of staff
+Career progression programme is established to ensure staff are promoted
+3
+1
+3
+Respective department heads will monitor and track their KPI and so far it is effective
+Seen the training matrix, training evaluation done after training and career progression records to ensure staff are retained
+1.3
+Procurement of products for service
+Poor performance of suppliers
+Poor reputation and loss of business
+Yearly supplier performance evaluation done to ensure only good performing suppliers is engaged.
+Select suppliers that meet Verztec criteria
+3
+1
+3
+Respective department heads will monitor and track their KPI and so far it is effective
+Seen the yearly performance evaluation records and selection of providers records
+1.4
+Completion of service
+Client dissatisfaction
+Loss of a business opportunity
+Survey conducted on client satisfaction index
+Review client requirements prior to commitment of services
+Seek areas for improvement to ensure compliance to client requirements such as skill upgrading/competitive pricing/delivery on time/providing better solutions to problems
+3
+1
+3
+Respective department heads will monitor and track their KPI and so far it is effective
+Seen the customer survey –online records and actions taken to mitigate negative feedback if any
+1.5
+Explore best practice
+Adoption of best practice by new technology
+Business opportunity
+Review market trends and provide competitive solutions to suit client needs
+1
+1
+1
+Currently adopting technology that has no problems to deliver client requirements and it is effective-seen online customer survey results

@@ -1,0 +1,138 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP-MTN-01
+REV.	:	A
+SHEET	:	4 OF 4
+TITLE	:	INFRASTRUCTURE (MAINTENANCE)
+TABLE 1 - MAINTENANCE CONTROL PLAN
+CAT.
+DESCRIPTION / ITEMS
+*C
+O
+S
+P
+R
+T
+REF. MANUAL
+RM
+PM
+BM
+REMARKS
+WHEN
+WHO
+WHEN
+WHO
+WHEN
+WHO
+A
+Building / Facilities / Utilities
+1
+Main Building (Structural / Architectural)
+–
+–
+–
+O
+OD
+2
+Mechanical - e.g., air-condition system
+–
+Q
+OD
+3
+Electricity Supply - e.g., lighting
+–
+O
+OD
+B
+Workspace & Hardware
+1
+Workspace
+–
+W
+OD
+2
+Computer
+O
+OD
+3
+Printer
+O
+OD
+C
+Software
+1
+Computer
+O
+OD
+D
+Support Services - Vehicles
+1
+2
+E
+Support Services - Office Equipment
+1
+Photocopier
+O
+OD
+2
+Fax Machine
+O
+OD
+3
+Telephone System
+O
+OD
+F
+Support Services - Information System
+1
+Computer System, Server
+O
+OD
+2
+G
+Others
+1
+2
+Legend :
+‘ ’ sign
+=
+Yes
+*CO
+=
+Company-owned
+RM
+=
+Routine Maintenance
+Y
+=
+Yearly
+W
+=
+Weekly
+‘ - ’ sign
+=
+Not Applicable
+SP
+=
+Provided by Supplier / Customer / Landlord
+PM
+=
+Preventive Maintenance
+Q
+=
+Quarterly
+D
+=
+Daily
+RT
+=
+Rental / Lease
+BM
+=
+Breakdown Maintenance
+M
+=
+Monthly
+O
+=
+As & When

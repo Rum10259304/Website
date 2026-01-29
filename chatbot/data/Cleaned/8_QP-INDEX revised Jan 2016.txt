@@ -1,0 +1,41 @@
+VERZTEC CONSULTING PTE LTD
+QUALITY PROCEDURE
+DOC NO.	:	QP
+REV.	:	B
+SHEET	:	1 OF 1
+TITLE	:	PROCEDURE INDEX
+GROUPING
+PROCEDURE NO.
+PROCEDURE TITLE
+OPERATIONS QUALITY
+QP-SAL-01
+Customer-Related Processes
+QP-OPS-01
+Operations/ Preservations Control / Environment for operations of processess /
+Customer Property
+QP-MMP-01
+Monitoring & Measurement of Product
+QP-CS-01
+Customer Satisfaction
+RESOURCE MANAGEMENT QUALITY
+QP-HRD-01
+Human Resources
+QP-PSC-01
+Purchasing & Supplier Control
+QP-MTN-01
+Infrastructure (Maintenance)
+SYSTEM MANAGEMENT QUALITY
+QP-SMQ-01
+Internal Audit
+QP-SMQ-02
+Corrective & Preventive Actions
+QP-SMQ-03
+Management Review / Continual Improvement
+QP-SMQ-04
+Control of Quality / Technical / Legal Documents & Electronic Data ( Documented Information)
+QP-SMQ-05
+QP-SMQ-06
+Control of Records / ( Documented Information)
+Control of Design & Development
+QP-SMQ-07
+Management of Change

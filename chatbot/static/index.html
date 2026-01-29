@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Verztec HR Chatbot (Ollama) 🤖</title>
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .chatbox {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 600px;
+      height: 400px;
+      overflow-y: scroll;
+    }
+    .user {
+      color: blue;
+      margin-top: 10px;
+    }
+    .bot {
+      color: green;
+      margin-top: 5px;
+    }
+    .ref {
+      color: gray;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h2>Verztec HR Chatbot (Ollama) 🤖</h2>
+  <div class="chatbox" id="chat"></div>
+  <input type="text" id="user-input" style="width: 500px;" placeholder="Ask a question...">
+  <button onclick="send()">Send</button>
+
+  <script>
+    async function send() {
+      const input = document.getElementById("user-input");
+      const chat = document.getElementById("chat");
+      const userMsg = input.value.trim();
+      if (!userMsg) return;
+
+      chat.innerHTML += `<div class="user">You: ${userMsg}</div>`;
+      input.value = "";
+
+      try {
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: userMsg })
+        });
+
+        const data = await response.json();
+        console.log("📦 Received from API:", data);
+
+        chat.innerHTML += `<div class="bot">🤖 Verztec: ${data.answer}</div>`;
+
+        if (data.reference_file) {
+          const ref = data.reference_file;
+          chat.innerHTML += `<div class="ref">📎 Source: <a href="${ref.url}" target="_blank">${ref.name}</a></div>`;
+        }
+
+        chat.scrollTop = chat.scrollHeight;
+
+      } catch (error) {
+        console.error("❌ Fetch failed:", error);
+        chat.innerHTML += `<div class="bot">❌ Bot error: ${error.message}</div>`;
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Verztec HR Chatbot (Ollama) 🤖</title>
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .chatbox {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 600px;
+      height: 400px;
+      overflow-y: scroll;
+    }
+    .user {
+      color: blue;
+      margin-top: 10px;
+    }
+    .bot {
+      color: green;
+      margin-top: 5px;
+    }
+    .ref {
+      color: gray;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h2>Verztec HR Chatbot (Ollama) 🤖</h2>
+  <div class="chatbox" id="chat"></div>
+  <input type="text" id="user-input" style="width: 500px;" placeholder="Ask a question...">
+  <button onclick="send()">Send</button>
+
+  <script>
+    async function send() {
+      const input = document.getElementById("user-input");
+      const chat = document.getElementById("chat");
+      const userMsg = input.value.trim();
+      if (!userMsg) return;
+
+      chat.innerHTML += `<div class="user">You: ${userMsg}</div>`;
+      input.value = "";
+
+      try {
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: userMsg })  // ✅ Fixed key
+        });
+
+        const data = await response.json();
+        console.log("📦 Received from API:", data);
+
+        chat.innerHTML += `<div class="bot">🤖 Verztec: ${data.answer}</div>`;
+
+        if (data.reference_file) {
+          chat.innerHTML += `<div class="ref">📎 Source: <a href="${data.reference_file}" target="_blank">Click to open</a></div>`;
+        }
+
+        chat.scrollTop = chat.scrollHeight;
+
+      } catch (error) {
+        console.error("❌ Fetch failed:", error);
+        chat.innerHTML += `<div class="bot">❌ Bot error: ${error.message}</div>`;
+      }
+    }
+  </script>
+</body>
+</html> -->
+
+
+

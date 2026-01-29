@@ -1,0 +1,141 @@
+ANNEX I - OPERATIONS CONTROL PLAN
+PREPARED BY
+REVIEWED BY
+APPROVED BY
+(TRANSLATING)
+Pg. 1 of 1
+Process Activity
+QP Ref.
+Ref Standard
+Process Parameter
+Incompany Control Limits
+Records Kept
+Dept & Person Responsible
+Sales Interface
+QP-SAL-01
+As per customer’s requirement
+Specification
+Delivery
+Accuracy & completeness of data
+Web Order
+CEO
+COO
+Manager
+Consultant
+Operations Planning
+A1	Translator Selection
+Customer required detail specification
+Delivery / date / time
+Respond quickly
+Accuracy & completeness of data
+MS Project Plan (for complex project)
+CEO
+COO
+Manager
+Consultant
+Scheduling
+B1	Deployment
+B2	Service Handover
+B3	Counselling
+As per customer’s requirement
+Correct schedule
+Respond time
+Accuracy of translator data
+Customer’s agreed schedule
+Project Schedule
+Web Order
+CEO
+COO
+Manager
+Consultant
+Job Processing
+C1	Job Interview
+Job details
+To ensure clarity of details & completeness
+Weekly Report
+(Client name, contact #, scope, status, last update)
+CEO
+COO
+Manager
+Consultant
+Monitoring & Control
+D1	Periodic Customer Feedback
+D2	Review of Documents
+In-house standard
+Detail / Schedule of rate
+Accuracy & completeness of data
+Tax Invoice
+CEO
+COO
+Manager
+Consultant
+Service Delivery
+QP-OPS-01
+On-time
+Customer specifications
+Accuracy & completeness of data
+Work Order
+Service Order
+CEO
+COO
+Manager
+Consultant
+ANNEX I - OPERATIONS CONTROL PLAN
+(DESKTOP PUBLISHING)
+PREPARED BY
+REVIEWED BY
+APPROVED BY
+Pg. 1 of 1
+Process Activity
+QP Ref.
+Process Parameter
+Incompany Control Limits
+Records Kept
+Dept & Person Responsible
+Receive Project file from Consultant
+Specification
+Accuracy & completeness of data
+Project file (softcopy) such as source file
+IT Department
+Research
+Customer required detail specifications
+Accuracy & completeness of data
+Project file
+IT Department
+Edit entire brochure
+Job details
+Ensure clarity of details & completeness
+Project file
+IT Department
+Hand to Project Consultant
+On-time
+Customer specification
+Customer’s agreed schedule
+Accuracy & completeness of data
+Working file
+CEO
+Manager
+Consultant
+ANNEX I - OPERATIONS CONTROL PLAN
+(HOSTING)
+PREPARED BY
+REVIEWED BY
+APPROVED BY
+Pg. 1 of 1
+Process Activity
+QP Ref.
+Process Parameter
+Incompany Control Limits
+Records Kept
+Dept & Person Responsible
+Receive namelist from Managing Director
+Specification
+Accuracy & completeness of data
+Namelist
+IT Department
+Set-up Account & E-mail user
+Specification
+Password given to customer within 48 hours of payment
+Argosoft (email password)
+Bulletproof (ftp password)
+IT Department
