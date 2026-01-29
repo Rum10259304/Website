@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Streaming Speech</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .test-area { 
+            background: #f0f0f0; 
+            padding: 20px; 
+            border-radius: 8px; 
+            margin: 20px 0;
+        }
+        .avatar-container { 
+            width: 300px; 
+            height: 300px; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            border-radius: 8px; 
+            margin: 20px auto;
+        }
+        button { 
+            background: #007bff; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 5px;
+        }
+        button:hover { background: #0056b3; }
+        .text-stream { 
+            min-height: 50px; 
+            padding: 10px; 
+            background: white; 
+            border: 1px solid #ddd; 
+            border-radius: 4px; 
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VerzTec Avatar - Streaming Speech Test</h1>
+        
+        <div class="avatar-container" id="avatar-3d"></div>
+        
+        <div class="test-area">
+            <h3>Test Controls</h3>
+            <button onclick="initAvatar()">Initialize Avatar</button>
+            <button onclick="testStreamingSpeech()">Test Streaming Speech</button>
+            <button onclick="testRegularSpeech()">Test Regular Speech</button>
+        </div>
+        
+        <div class="test-area">
+            <h3>Streaming Text Display</h3>
+            <div id="text-stream" class="text-stream">Text will appear here as avatar speaks...</div>
+        </div>
+        
+        <div class="test-area">
+            <h3>Status</h3>
+            <div id="status">Ready to initialize avatar...</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FBXLoader.js"></script>
+    <script src="js/rhubarb-lipsync.js"></script>
+    <script src="js/ready-player-me-avatar.js"></script>
+    <script src="js/avatar-manager.js"></script>
+    
+    <script>
+        let avatarManager = null;
+        
+        function updateStatus(message) {
+            document.getElementById('status').textContent = message;
+            console.log('Status:', message);
+        }
+        
+        function initAvatar() {
+            updateStatus('Initializing avatar...');
+            
+            avatarManager = new AvatarManager('avatar-3d', {
+                elevenlabsApiKey: 'sk_72283c30a844b3d198dda76a38373741c8968217a9472ae7',
+                voice: 'EXAVITQu4vr4xnSDxMaL', // Bella voice
+                avatarUrl: 'assets/avatars/models/64f1a714fe61576b46f27ca2.glb',
+                animationsUrl: 'assets/avatars/models/animations.glb'
+            });
+            
+            // Wait for avatar to be fully initialized
+            const checkInitialization = setInterval(() => {
+                if (avatarManager && avatarManager.isInitialized) {
+                    updateStatus('Avatar initialized successfully!');
+                    clearInterval(checkInitialization);
+                }
+            }, 500);
+            
+            // Timeout after 10 seconds
+            setTimeout(() => {
+                clearInterval(checkInitialization);
+                if (!avatarManager || !avatarManager.isInitialized) {
+                    updateStatus('Avatar initialization failed');
+                }
+            }, 10000);
+        }
+        
+        function testStreamingSpeech() {
+            if (!avatarManager || !avatarManager.isInitialized) {
+                updateStatus('Avatar not initialized. Please initialize first.');
+                return;
+            }
+            
+            const testText = "Hello! This is a test of the new streaming speech system. The text should appear as I speak, creating a more natural conversational experience. The mouth movements should be synchronized with the audio, and there should be no clipping issues.";
+            
+            updateStatus('Testing streaming speech...');
+            document.getElementById('text-stream').innerHTML = '';
+            
+            avatarManager.speakWithTextStream(testText, (streamedText) => {
+                document.getElementById('text-stream').innerHTML = streamedText;
+            }).then(() => {
+                updateStatus('Streaming speech test completed!');
+            }).catch((error) => {
+                updateStatus('Streaming speech test failed: ' + error.message);
+            });
+        }
+        
+        function testRegularSpeech() {
+            if (!avatarManager || !avatarManager.isInitialized) {
+                updateStatus('Avatar not initialized. Please initialize first.');
+                return;
+            }
+            
+            const testText = "This is a regular speech test to compare with the streaming version.";
+            
+            updateStatus('Testing regular speech...');
+            document.getElementById('text-stream').innerHTML = testText;
+            
+            avatarManager.speak(testText).then(() => {
+                updateStatus('Regular speech test completed!');
+            }).catch((error) => {
+                updateStatus('Regular speech test failed: ' + error.message);
+            });
+        }
+    </script>
+</body>
+</html>
