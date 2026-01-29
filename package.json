@@ -1,0 +1,27 @@
+{
+  "name": "verztec---kaixin-team",
+  "version": "1.0.0",
+  "description": "A comprehensive web application with integrated AI chatbot for VerzTec document management and employee assistance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiXinDS02/VerzTec---KaiXin-Team.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiXinDS02/VerzTec---KaiXin-Team/issues"
+  },
+  "homepage": "https://github.com/KaiXinDS02/VerzTec---KaiXin-Team#readme",
+  "dependencies": {
+    "@react-three/drei": "^10.4.2",
+    "@react-three/fiber": "^9.1.4",
+    "axios": "^1.10.0",
+    "three": "^0.178.0",
+    "wawa-lipsync": "^0.0.1"
+  }
+}

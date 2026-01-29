@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: web
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html/
+    depends_on:
+      - db
+    networks:
+      - appnet
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: Verztec
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - appnet
+
+  onlyoffice:
+    image: onlyoffice/documentserver
+    container_name: onlyoffice
+    ports:
+      - "8081:80"
+    environment:
+      - JWT_ENABLED=true
+      - JWT_SECRET=my_jwt_secret
+    volumes:
+      - ./logs:/var/log/onlyoffice
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge

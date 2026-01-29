@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Meta setup -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Verztec</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+      /* Body setup for full viewport usage */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      
+      body {
+        padding-top: 110px; /* Space for fixed header */
+        background-color: #f2f3fa;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Chat section takes full remaining viewport */
+      .chat-section {
+        height: calc(100vh - 110px); /* Full viewport minus header */
+        padding: 20px 15px 20px 15px; /* Consistent padding on all sides */
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .chat-section .container-fluid {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        max-width: none; /* Remove Bootstrap's max-width constraint */
+        padding: 0; /* Remove default container padding */
+      }
+      
+      .chat-section .row {
+        flex: 1;
+        margin: 0; /* Remove row margins */
+        height: 100%;
+      }
+      
+      .chat-section .col-lg-6 {
+        padding: 0 10px; /* Reduce column padding */
+      }
+
+      /* Avatar container styles */
+      .avatar-container {
+        position: relative;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 8px;
+        height: 100%;
+        min-height: 500px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      }
+      
+      .avatar-3d {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      
+      .avatar-3d canvas {
+        border-radius: 8px;
+      }
+      
+      .avatar-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+        z-index: 10;
+      }
+      
+      .avatar-controls {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        display: flex;
+        gap: 10px;
+        pointer-events: auto;
+      }
+      
+      .avatar-controls .btn {
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 0.85rem;
+        padding: 5px 10px;
+        transition: all 0.3s ease;
+      }
+      
+      .avatar-controls .btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+      }
+      
+      .avatar-controls .btn-group {
+        margin-left: 10px;
+      }
+      
+      .avatar-controls .speed-btn {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+        min-width: 35px;
+      }
+      
+      .avatar-controls .speed-btn.active {
+        background: rgba(255, 193, 7, 0.3);
+        border-color: #ffc107;
+        color: #ffc107;
+      }
+      
+      .avatar-controls .speed-btn:hover {
+        background: rgba(255, 193, 7, 0.2);
+        border-color: #ffc107;
+        color: #ffc107;
+      }
+      
+      .avatar-info {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        pointer-events: none;
+      }
+      
+      .avatar-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+        background: linear-gradient(45deg, #fff, #f0f0f0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .avatar-status {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        margin: 0;
+      }
+      
+      /* Chat panel fills available space */
+      .chat-panel {
+        height: calc(100vh - 140px); /* Adjust height dynamically */
+        max-height: calc(100vh - 140px); /* Prevent overflow beyond viewport */
+        overflow: hidden; /* Prevent content overflow */
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+      }
+      
+      /* Chat panel expanded when avatar is hidden */
+      .chat-panel.expanded {
+        height: calc(100vh - 140px);
+        max-height: calc(100vh - 140px);
+      }
+      
+      /* Avatar container transition */
+      .avatar-container {
+        transition: all 0.3s ease;
+      }
+      
+      .avatar-container.hidden {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      
+      /* Chat section adjustments when avatar is hidden */
+      .chat-section.avatar-hidden .col-lg-6:first-child {
+        width: 0;
+        padding: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+      
+      .chat-section.avatar-hidden .col-lg-6:last-child {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        transition: all 0.3s ease;
+      }
+      
+      /* Toggle avatar button in chat header */
+      .chat-header-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      
+      .chat-header-controls .btn-sm {
+        padding: 4px 8px;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+      
+      .chat-header-controls .btn-outline-primary {
+        border-color: #333;
+        color: #fff;
+        background-color: #333;
+      }
+      
+      .chat-header-controls .btn-outline-primary:hover {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #333;
+      }
+      
+      .chat-header-controls .btn-outline-primary i {
+        color: #fff !important;
+      }
+      
+      .chat-header-controls .btn-outline-primary:hover i {
+        color: #333 !important;
+      }
+      
+      .chat-header {
+        background: #fff;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 1rem;
+        flex-shrink: 0; /* Don't shrink the header */
+      }
+      
+      .chat-body {
+        flex: 1; /* Take up remaining space */
+        overflow-y: auto; /* Enable vertical scrolling */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        padding: 1rem;
+        background: #fafbfc;
+        border-left: 1px solid #dee2e6;
+        border-right: 1px solid #dee2e6;
+        box-sizing: border-box;
+      }
+      
+      /* Message bubble styles */
+      .chat-body .bot-initial {
+        max-width: 80%;
+        display: inline-block;
+        background: #fff;
+        border: 1px solid #ffc107;
+        border-radius: 20px;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+      
+      .chat-body .user-bubble {
+        max-width: 80%;
+        background: #ffc107;
+        color: #333;
+        border-radius: 20px;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        display: block;
+        text-align: left;
+        word-wrap: break-word;
+      }
+      
+      .chat-body .bot-bubble {
+        max-width: 80%;
+        display: block;
+        background: #fff;
+        border: 1px solid #ffc107;
+        border-radius: 20px;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1rem;
+        margin-right: auto;
+        color: #333;
+        word-wrap: break-word;
+      }
+      
+      /* Fix text overflow issues */
+      .chat-body .bot-bubble,
+      .chat-body .user-bubble {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+      }
+
+      /* Chat input group */
+      .chat-input-group {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background: #fff;
+        border: 1px solid #dee2e6;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        flex-shrink: 0; /* Don't shrink the input area */
+      }
+      
+      .chat-input-group input.form-control {
+        border: 1px solid #dee2e6;
+        box-shadow: none;
+        border-radius: 24px;
+        padding: 0.75rem 1rem;
+        flex: 1;
+        transition: all 0.3s ease;
+      }
+      
+      .chat-input-group input.form-control:disabled {
+        background-color: #f8f9fa;
+        border-color: #dee2e6;
+        color: #6c757d;
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+      
+      .chat-input-group input.form-control:disabled::placeholder {
+        color: #adb5bd;
+      }
+      
+      .chat-input-group .btn-icon {
+        border: none;
+        background: transparent;
+        font-size: 1.2rem;
+        color: #333;
+        margin-left: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .chat-input-group .btn-icon:hover {
+        background-color: #ffc107;
+        color: #fff;
+        transform: scale(1.1);
+        border-radius: 50%; /* Make icons circular */
+      }
+      
+      .chat-input-group .btn-icon:active {
+        transform: scale(0.95);
+        background-color: #e0a800;
+      }
+      
+      .chat-input-group .btn-icon:focus {
+        box-shadow: none;
+        outline: none;
+      }
+      
+      .chat-input-group .btn-icon:disabled,
+      .chat-input-group .btn-icon[style*="pointer-events: none"] {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+      }
+      
+      .chat-input-group .btn-icon:disabled:hover,
+      .chat-input-group .btn-icon[style*="pointer-events: none"]:hover {
+        background: transparent;
+        color: #6c757d;
+        transform: none;
+      }
+
+      /* Maintain consistent spacing between messages */
+      .chat-body .bot-bubble,
+      .chat-body .user-bubble {
+        margin-bottom: 1rem; /* Consistent spacing */
+      }
+      
+      /* Thinking animation styles */
+      .thinking-animation {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        margin-left: 8px;
+      }
+      
+      .thinking-dot {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background-color: #ffc107;
+        border-radius: 50%;
+        opacity: 0.4;
+        transition: all 0.2s ease;
+        font-size: 6px;
+        line-height: 1;
+        box-shadow: 0 0 3px rgba(255, 193, 7, 0.3);
+      }
+      
+      .thinking-dot.active {
+        opacity: 1;
+        transform: scale(1.3);
+        background-color: #e0a800;
+        box-shadow: 0 0 8px rgba(255, 193, 7, 0.6);
+      }
+      
+      @keyframes thinking-pulse {
+        0% {
+          opacity: 0.4;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.3);
+        }
+        100% {
+          opacity: 0.4;
+          transform: scale(1);
+        }
+      }
+    </style>
+    </style>
+</head>
+<body>
+
+  <!-- header (unchanged) -->
+  <header class="header-area" style="position: fixed; top:0; left:0; width:100%; z-index:999; background:white;">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-xl-3 col-md-4 col-6">
+          <a href="home.php" class="page-logo-wp"><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="col-xl-6 col-md-5 order-3 order-md-2 d-flex justify-content-center justify-content-md-start">
+          <div class="page-menu-wp">
+            <ul>
+              <li><a href="home.php">Home</a></li>
+              <li class="active"><a href="#">Chatbot</a></li>
+              <li><a href="files.php">Files</a></li>
+              <li><a href="admin/users.php">Admin</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 d-flex justify-content-end order-2 order-md-3">
+          <div class="page-user-icon profile">
+            <button><img src="images/Profile-Icon.svg" alt=""></button>
+            <div class="menu">
+              <ul>
+                <li><a href="#"><i class="fa-regular fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fa-regular fa-message-smile"></i> Inbox</a></li>
+                <li><a href="#"><i class="fa-regular fa-gear"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-regular fa-square-question"></i> Help</a></li>
+                <li><a href="login.php"><i class="fa-regular fa-right-from-bracket"></i> Sign Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Chatbot Interface -->
+  <section class="chat-section py-4" id="chat-section">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- Left half for 3D avatar -->
+        <div class="col-lg-6 mb-4 mb-lg-0" id="avatar-column">
+          <div class="avatar-container h-100">
+            <div id="avatar-3d" class="avatar-3d"></div>
+            <div class="avatar-overlay">
+              <div class="avatar-controls">
+                <button id="toggle-avatar" class="btn btn-sm btn-outline-light">
+                  <i class="fa fa-robot"></i> Avatar On
+                </button>
+                <button id="toggle-voice" class="btn btn-sm btn-outline-light">
+                  <i class="fa fa-volume-up"></i> Voice On
+                </button>
+                <div class="btn-group" role="group">
+                  <button id="speed-1x" class="btn btn-sm btn-outline-light speed-btn active" data-speed="1">1x</button>
+                  <button id="speed-1.5x" class="btn btn-sm btn-outline-light speed-btn" data-speed="1.5">1.5x</button>
+                  <button id="speed-2x" class="btn btn-sm btn-outline-light speed-btn" data-speed="2">2x</button>
+                  <button id="speed-3x" class="btn btn-sm btn-outline-light speed-btn" data-speed="3">3x</button>
+                </div>
+              </div>
+              <div class="avatar-info">
+                <h3 class="avatar-name">VerzTec AI Assistant</h3>
+                <p class="avatar-status">Ready to help</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right half for chat -->
+        <div class="col-lg-6 d-flex" id="chat-column">
+          <div class="chat-panel w-100 shadow-sm rounded">
+
+            <div class="chat-header">
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="fa fa-robot me-2"></i>VerzTec AI Assistant</h5>
+                <div class="chat-header-controls">
+                  <button id="show-avatar" class="btn btn-sm btn-outline-primary" style="display: none;">
+                    <i class="fa fa-robot"></i> Show Avatar
+                  </button>
+                  <button id="chat-toggle-voice" class="btn btn-sm btn-outline-primary" style="display: none;">
+                    <i class="fa fa-volume-up"></i> Voice On
+                  </button>
+                  <div class="btn-group" role="group" id="chat-speed-controls" style="display: none;">
+                    <button class="btn btn-sm btn-outline-primary speed-btn active" data-speed="1">1x</button>
+                    <button class="btn btn-sm btn-outline-primary speed-btn" data-speed="1.5">1.5x</button>
+                    <button class="btn btn-sm btn-outline-primary speed-btn" data-speed="2">2x</button>
+                    <button class="btn btn-sm btn-outline-primary speed-btn" data-speed="3">3x</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="chat-container" class="chat-body">
+              <div class="bot-initial">
+                <strong>VerzTec Assistant:</strong> Hello! I'm here to help you today. 😊
+              </div>
+            </div>
+
+            <div class="chat-input-group">
+              <input type="text"
+                     id="user-input"
+                     class="form-control"
+                     placeholder="Ask anything..."
+                     autocomplete="off"
+                     autocorrect="off"
+                     autocapitalize="off"
+                     spellcheck="false"
+                     onkeypress="handleKeyPress(event)">
+              <button class="btn-icon" type="button" onclick="if (!isChatbotBusy) sendMessage()">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+              <button class="btn-icon" type="button">
+                <i class="fa fa-microphone"></i>
+              </button>
+              <button class="btn-icon" type="button">
+                <i class="fa fa-plus"></i>
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- All your existing scripts (unchanged) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FBXLoader.js"></script>
+  <script src="js/rhubarb-lipsync.js"></script>
+  <script src="js/ready-player-me-avatar.js"></script>
+  <script src="js/avatar-manager.js"></script>
+  <script>
+    // Global variables
+    let avatarManager = null;
+    let isVoiceEnabled = true;
+    let isAvatarEnabled = true;
+    let currentSpeed = 1.0; // Speed multiplier for text and speech
+    let isChatbotBusy = false; // Track if chatbot is currently processing/talking
+    
+    // Initialize avatar when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeAvatar();
+      setupEventListeners();
+    });
+    
+    // Cleanup on page unload
+    window.addEventListener('beforeunload', function() {
+      stopThinkingAnimation();
+    });
+    
+    function initializeAvatar() {
+      // Only initialize avatar if it's enabled
+      if (!isAvatarEnabled) {
+        console.log('Avatar disabled, skipping initialization');
+        return;
+      }
+      
+      // Use fixed settings with API key and Bella voice
+      avatarManager = new AvatarManager('avatar-3d', {
+        elevenlabsApiKey: 'sk_72283c30a844b3d198dda76a38373741c8968217a9472ae7',
+        voice: 'EXAVITQu4vr4xnSDxMaL', // Bella voice
+        avatarUrl: 'assets/avatars/models/64f1a714fe61576b46f27ca2.glb',
+        animationsUrl: 'assets/avatars/models/animations.glb'
+      });
+      
+      // Wait for avatar to be fully initialized
+      const checkInitialization = setInterval(() => {
+        if (avatarManager && avatarManager.isInitialized) {
+          updateAvatarStatus('Ready to help');
+          clearInterval(checkInitialization);
+          console.log('Avatar manager initialized successfully');
+          
+          // Set initial voice state
+          avatarManager.setVoiceEnabled(isVoiceEnabled);
+          
+          // Test API key
+          avatarManager.testApiKey().then(result => {
+            if (result.success) {
+              console.log('ElevenLabs API key is working properly');
+              updateAvatarStatus('Ready to help - Voice enabled');
+            } else {
+              console.error('ElevenLabs API key test failed:', result.error);
+              updateAvatarStatus('Ready to help - Voice may have issues');
+            }
+          });
+        }
+      }, 500);
+      
+      // Timeout after 10 seconds
+      setTimeout(() => {
+        clearInterval(checkInitialization);
+        if (!avatarManager || !avatarManager.isInitialized) {
+          updateAvatarStatus('Avatar failed to load');
+          console.error('Avatar initialization timeout');
+        }
+      }, 10000);
+    }
+    
+    function setupEventListeners() {
+      // Avatar toggle
+      document.getElementById('toggle-avatar').addEventListener('click', function() {
+        isAvatarEnabled = !isAvatarEnabled;
+        toggleAvatar();
+      });
+      
+      // Show avatar button (in chat header)
+      document.getElementById('show-avatar').addEventListener('click', function() {
+        isAvatarEnabled = true;
+        toggleAvatar();
+      });
+      
+      // Voice toggle (main avatar controls)
+      document.getElementById('toggle-voice').addEventListener('click', function() {
+        isVoiceEnabled = !isVoiceEnabled;
+        updateVoiceButton(this);
+        updateAvatarStatus(isVoiceEnabled ? 'Voice enabled' : 'Voice disabled');
+        
+        // Update avatar manager voice state
+        if (avatarManager) {
+          avatarManager.setVoiceEnabled(isVoiceEnabled);
+        }
+      });
+      
+      // Voice toggle (chat header controls)
+      document.getElementById('chat-toggle-voice').addEventListener('click', function() {
+        isVoiceEnabled = !isVoiceEnabled;
+        updateVoiceButton(this);
+        updateAvatarStatus(isVoiceEnabled ? 'Voice enabled' : 'Voice disabled');
+        
+        // Also update the main avatar voice button
+        const mainVoiceButton = document.getElementById('toggle-voice');
+        updateVoiceButton(mainVoiceButton);
+        
+        // Update avatar manager voice state
+        if (avatarManager) {
+          avatarManager.setVoiceEnabled(isVoiceEnabled);
+        }
+      });
+      
+      // Speed control buttons (both sets)
+      document.querySelectorAll('.speed-btn').forEach(button => {
+        button.addEventListener('click', function() {
+          // Don't change speed while chatbot is busy
+          if (isChatbotBusy) return;
+          
+          // Find the parent container to update buttons within the same group
+          const parentContainer = this.closest('.btn-group');
+          const allSpeedButtons = parentContainer.querySelectorAll('.speed-btn');
+          
+          // Remove active class from all speed buttons in this group
+          allSpeedButtons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          // Update speed
+          currentSpeed = parseFloat(this.dataset.speed);
+          console.log('🎛️ Speed button clicked - Speed changed to:', currentSpeed + 'x');
+          updateAvatarStatus(`Speed: ${currentSpeed}x`);
+          
+          // Update avatar manager speed if available
+          if (avatarManager) {
+            console.log('🎛️ Calling avatarManager.setSpeed with:', currentSpeed);
+            avatarManager.setSpeed(currentSpeed);
+          } else {
+            console.log('🎛️ avatarManager not available');
+          }
+          
+          // Sync both speed control groups
+          syncSpeedButtons(currentSpeed);
+        });
+      });
+    }
+    
+    function toggleAvatar() {
+      const chatSection = document.getElementById('chat-section');
+      const avatarColumn = document.getElementById('avatar-column');
+      const avatarContainer = document.querySelector('.avatar-container');
+      const chatPanel = document.querySelector('.chat-panel');
+      const showAvatarBtn = document.getElementById('show-avatar');
+      const chatVoiceBtn = document.getElementById('chat-toggle-voice');
+      const chatSpeedControls = document.getElementById('chat-speed-controls');
+      const toggleAvatarBtn = document.getElementById('toggle-avatar');
+      
+      if (isAvatarEnabled) {
+        // Show avatar
+        chatSection.classList.remove('avatar-hidden');
+        avatarContainer.classList.remove('hidden');
+        chatPanel.classList.remove('expanded');
+        
+        // Hide chat header controls
+        showAvatarBtn.style.display = 'none';
+        chatVoiceBtn.style.display = 'none';
+        chatSpeedControls.style.display = 'none';
+        
+        // Update avatar toggle button
+        toggleAvatarBtn.innerHTML = '<i class="fa fa-robot"></i> Avatar On';
+        
+        // Initialize avatar if not already done
+        if (!avatarManager) {
+          initializeAvatar();
+        } else if (avatarManager.isInitialized) {
+          // If avatar already exists, sync voice state
+          avatarManager.setVoiceEnabled(isVoiceEnabled);
+        }
+        
+        updateAvatarStatus('Avatar enabled');
+      } else {
+        // Hide avatar
+        chatSection.classList.add('avatar-hidden');
+        avatarContainer.classList.add('hidden');
+        chatPanel.classList.add('expanded');
+        
+        // Show chat header controls
+        showAvatarBtn.style.display = 'inline-block';
+        chatVoiceBtn.style.display = 'inline-block';
+        chatSpeedControls.style.display = 'inline-flex';
+        
+        // Update avatar toggle button
+        toggleAvatarBtn.innerHTML = '<i class="fa fa-robot"></i> Avatar Off';
+        
+        // Stop any avatar activities
+        if (avatarManager && avatarManager.isInitialized) {
+          avatarManager.stopThinking();
+          avatarManager.switchAnimation('idle');
+          avatarManager.isSpeaking = false;
+          avatarManager.isThinking = false;
+        }
+        
+        // Sync voice button state
+        updateVoiceButton(chatVoiceBtn);
+        
+        // Sync speed buttons
+        syncSpeedButtons(currentSpeed);
+        
+        updateAvatarStatus('Avatar disabled');
+      }
+    }
+    
+    function updateVoiceButton(button) {
+      if (isVoiceEnabled) {
+        button.innerHTML = '<i class="fa fa-volume-up"></i> Voice On';
+      } else {
+        button.innerHTML = '<i class="fa fa-volume-off"></i> Voice Off';
+      }
+    }
+    
+    function syncSpeedButtons(speed) {
+      // Update both avatar controls and chat header controls
+      document.querySelectorAll('.speed-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (parseFloat(btn.dataset.speed) === speed) {
+          btn.classList.add('active');
+        }
+      });
+    }
+    
+    function updateAvatarStatus(status) {
+      document.querySelector('.avatar-status').textContent = status;
+    }
+    
+    function disableUserInput() {
+      const userInput = document.getElementById('user-input');
+      const sendButton = document.querySelector('.chat-input-group .btn-icon');
+      
+      userInput.disabled = true;
+      userInput.placeholder = 'Please wait...';
+      sendButton.style.pointerEvents = 'none';
+      sendButton.style.opacity = '0.5';
+      isChatbotBusy = true;
+    }
+    
+    function enableUserInput() {
+      const userInput = document.getElementById('user-input');
+      const sendButton = document.querySelector('.chat-input-group .btn-icon');
+      
+      userInput.disabled = false;
+      userInput.placeholder = 'Ask anything...';
+      sendButton.style.pointerEvents = 'auto';
+      sendButton.style.opacity = '1';
+      isChatbotBusy = false;
+    }
+
+    function handleKeyPress(event) {
+      if (event.key === 'Enter' && !isChatbotBusy) {
+        sendMessage();
+      }
+    }
+
+    async function sendMessage() {
+      // Don't send if chatbot is busy
+      if (isChatbotBusy) {
+        return;
+      }
+      
+      const userInput = document.getElementById('user-input');
+      const message = userInput.value.trim();
+      
+      if (message === '') {
+        return;
+      }
+
+      // Disable user input while processing
+      disableUserInput();
+
+      // Add user message to chat
+      addMessageToChat(message, 'user');
+      
+      // Clear input
+      userInput.value = '';
+
+      // Always show thinking animation immediately in chat UI
+      console.log('🤔 Showing thinking animation immediately...');
+      showThinking(); // Show thinking animation in chat immediately
+      
+      // Trigger avatar thinking animation only if avatar is ready AND voice is enabled
+      if (avatarManager && avatarManager.isInitialized && isVoiceEnabled && isAvatarEnabled) {
+        console.log('🤔 Triggering avatar thinking animation...');
+        avatarManager.startThinking();
+        updateAvatarStatus('Thinking...');
+      } else {
+        // Avatar not ready or voice disabled, but chat thinking animation is still shown
+        if (!isVoiceEnabled) {
+          updateAvatarStatus('Voice disabled - processing...');
+        } else if (!isAvatarEnabled) {
+          updateAvatarStatus('Avatar disabled - processing...');
+        } else {
+          updateAvatarStatus('Processing...');
+        }
+      }
+
+      // Send message to chatbot API
+      try {
+        const response = await fetch('http://localhost:8000/chat', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ question: message })
+        });
+        
+        const data = await response.json();
+        
+        // Store reference file info for later use (after text is complete)
+        let referenceFile = null;
+        if (data.reference_file && data.reference_file.name) {
+          referenceFile = {
+            url: data.reference_file.url,
+            name: data.reference_file.name
+          };
+        }
+        
+        // Speak the response if voice is enabled and avatar is ready
+        if (isVoiceEnabled && isAvatarEnabled && avatarManager && avatarManager.isInitialized) {
+          try {
+            console.log('Starting synchronized speech with speed:', currentSpeed + 'x', 'for text:', data.answer.substring(0, 50) + '...');
+            
+            // Variable to track if message box has been created
+            let botMessageDiv = null;
+            let isFirstLetterReady = false;
+            
+            // Use the improved speakWithTextStream method with callback for when first letter is ready
+            await avatarManager.speakWithTextStream(data.answer, (streamedText) => {
+              // Check if this is the signal that first letter is ready (empty string)
+              if (streamedText === '' && !isFirstLetterReady) {
+                console.log('📝 First letter ready signal received, creating message box...');
+                hideThinking(); // Hide thinking animation when text bubble appears
+                
+                botMessageDiv = document.createElement('div');
+                botMessageDiv.className = 'bot-bubble';
+                botMessageDiv.innerHTML = '<strong>VerzTec Assistant:</strong> ';
+                
+                const chatContainer = document.getElementById('chat-container');
+                chatContainer.appendChild(botMessageDiv);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+                
+                updateAvatarStatus('Speaking...');
+                isFirstLetterReady = true;
+                return; // Don't update content yet
+              }
+              
+              // Update the message content with streamed text (only after box is created)
+              if (botMessageDiv && streamedText.length > 0) {
+                botMessageDiv.innerHTML = `<strong>VerzTec Assistant:</strong> ${streamedText}`;
+                const chatContainer = document.getElementById('chat-container');
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+              }
+            }, currentSpeed); // Pass speed to speakWithTextStream
+            
+            // Text is fully generated, no need to hide thinking again
+            console.log('🎯 Text fully generated');
+            
+            // Now add reference file link after text is fully generated
+            if (referenceFile) {
+              console.log('📄 Adding reference file after text completion...');
+              addReferenceLink(referenceFile.url, referenceFile.name);
+            }
+            
+            updateAvatarStatus('Ready to help');
+            enableUserInput(); // Re-enable input after response is complete
+            
+            updateAvatarStatus('Ready to help');
+          } catch (error) {
+            console.error('Speech failed:', error);
+            hideThinking(); // Hide thinking animation on error
+            // If speech fails, show the text normally
+            addMessageToChat(data.answer, 'bot');
+            // Add reference file after text is shown
+            if (referenceFile) {
+              addReferenceLink(referenceFile.url, referenceFile.name);
+            }
+            updateAvatarStatus('Speech failed, but text is shown');
+            enableUserInput(); // Re-enable input after error
+          }
+        } else {
+          hideThinking(); // Hide thinking animation if avatar not ready or voice disabled
+          // Voice disabled or avatar not ready, just show text normally
+          addMessageToChat(data.answer, 'bot');
+          // Add reference file after text is shown
+          if (referenceFile) {
+            addReferenceLink(referenceFile.url, referenceFile.name);
+          }
+          
+          if (!isVoiceEnabled) {
+            updateAvatarStatus('Voice disabled - text only');
+          } else if (!isAvatarEnabled) {
+            updateAvatarStatus('Avatar disabled - text only');
+          } else {
+            updateAvatarStatus('Voice not available');
+          }
+          enableUserInput(); // Re-enable input when done
+        }
+        
+      } catch (error) {
+        hideThinking(); // Hide thinking animation on error
+        console.error('Error:', error);
+        addMessageToChat('Sorry, I encountered an error. Please make sure the chatbot server is running on port 8000.', 'bot');
+        updateAvatarStatus('Connection error');
+        enableUserInput(); // Re-enable input after error
+        
+        // Reset avatar state on error
+        if (avatarManager && avatarManager.isInitialized && isVoiceEnabled && isAvatarEnabled) {
+          avatarManager.stopThinking();
+        }
+      }
+    }
+
+    function addMessageToChat(message, sender) {
+      const chatContainer = document.getElementById('chat-container');
+      const messageDiv = document.createElement('div');
+      
+      if (sender === 'user') {
+        messageDiv.className = 'user-bubble';
+        messageDiv.innerHTML = `<strong>You:</strong> ${message}`;
+      } else {
+        messageDiv.className = 'bot-bubble';
+        messageDiv.innerHTML = `<strong>VerzTec Assistant:</strong> ${message}`;
+      }
+      
+      chatContainer.appendChild(messageDiv);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    function addReferenceLink(url, filename) {
+      const chatContainer = document.getElementById('chat-container');
+      const linkDiv = document.createElement('div');
+      
+      linkDiv.className = 'bot-bubble';
+      linkDiv.innerHTML = `
+        <small><i class="fa fa-file-pdf"></i> Reference: <a href="${url}" target="_blank" style="color: #0066cc; text-decoration: underline;">${filename}</a></small>
+      `;
+      
+      chatContainer.appendChild(linkDiv);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    function showLoading() {
+      const chatContainer = document.getElementById('chat-container');
+      const loadingDiv = document.createElement('div');
+      loadingDiv.id = 'loading-message';
+      loadingDiv.className = 'bot-bubble';
+      loadingDiv.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Thinking...';
+      chatContainer.appendChild(loadingDiv);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    function hideLoading() {
+      const loadingMessage = document.getElementById('loading-message');
+      if (loadingMessage) {
+        loadingMessage.remove();
+      }
+    }
+
+    function showThinking() {
+      const chatContainer = document.getElementById('chat-container');
+      const thinkingDiv = document.createElement('div');
+      thinkingDiv.id = 'thinking-message';
+      thinkingDiv.className = 'bot-bubble';
+      thinkingDiv.innerHTML = `
+        <div style="display: flex; align-items: center;">
+          <strong>VerzTec Assistant:</strong>&nbsp;<span style="color: #666; font-style: italic;">thinking</span>
+          <div class="thinking-animation">
+            <span class="thinking-dot">●</span>
+            <span class="thinking-dot">●</span>
+            <span class="thinking-dot">●</span>
+          </div>
+        </div>
+      `;
+      chatContainer.appendChild(thinkingDiv);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+      
+      // Start the thinking animation
+      startThinkingAnimation();
+    }
+
+    function hideThinking() {
+      const thinkingMessage = document.getElementById('thinking-message');
+      if (thinkingMessage) {
+        thinkingMessage.remove();
+      }
+      stopThinkingAnimation();
+    }
+
+    let thinkingAnimationInterval;
+
+    function startThinkingAnimation() {
+      let dotIndex = 0;
+      thinkingAnimationInterval = setInterval(() => {
+        const dots = document.querySelectorAll('.thinking-dot');
+        if (dots.length > 0) {
+          // Reset all dots
+          dots.forEach(dot => {
+            dot.classList.remove('active');
+          });
+          
+          // Activate current dot
+          dots[dotIndex].classList.add('active');
+          
+          dotIndex = (dotIndex + 1) % dots.length;
+        }
+      }, 350); // Slightly faster for more responsive feel
+    }
+
+    function stopThinkingAnimation() {
+      if (thinkingAnimationInterval) {
+        clearInterval(thinkingAnimationInterval);
+        thinkingAnimationInterval = null;
+      }
+    }
+  </script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

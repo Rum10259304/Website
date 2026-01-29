@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerzTec Avatar Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <style>
+        body {
+            padding: 20px;
+            background: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .avatar-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .avatar-demo {
+            height: 500px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .demo-controls {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .control-group {
+            margin-bottom: 15px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .btn {
+            margin: 5px;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        
+        .btn-warning {
+            background: #ffc107;
+            color: #212529;
+        }
+        
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .status-display {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+            border-left: 4px solid #007bff;
+            margin: 10px 0;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin: 5px 0;
+        }
+        
+        .avatar-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <h1>VerzTec AI Assistant Avatar Demo</h1>
+        <p>Test the 3D avatar integration with lip sync and voice synthesis.</p>
+        
+        <div class="avatar-section">
+            <h3>3D Avatar Display</h3>
+            <div id="avatar-demo" class="avatar-demo">
+                <div class="avatar-overlay">
+                    <h4>VerzTec AI Assistant</h4>
+                    <p id="avatar-status">Initializing...</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="demo-controls">
+            <h3>Demo Controls</h3>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="control-group">
+                        <label>ElevenLabs API Key:</label>
+                        <input type="password" id="api-key" class="form-control" 
+                               placeholder="Enter your ElevenLabs API key">
+                        <button onclick="setApiKey()" class="btn btn-primary">Set API Key</button>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label>Voice Selection:</label>
+                        <select id="voice-select" class="form-control">
+                            <option value="pNInz6obpgDQGcFmaJgB">Adam (Male)</option>
+                            <option value="21m00Tcm4TlvDq8ikWAM">Rachel (Female)</option>
+                            <option value="AZnzlk1XvdvUeBnXmlld">Domi (Female)</option>
+                            <option value="EXAVITQu4vr4xnSDxMaL">Bella (Female)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label>Test Text to Speech:</label>
+                        <input type="text" id="test-text" class="form-control" 
+                               value="Hello! I am your VerzTec AI assistant. How can I help you today?"
+                               placeholder="Enter text to speak">
+                        <button onclick="testSpeech()" class="btn btn-success">
+                            <i class="fa fa-volume-up"></i> Test Speech
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="control-group">
+                        <label>Avatar URL (Ready Player Me):</label>
+                        <input type="url" id="avatar-url" class="form-control" 
+                               placeholder="assets/avatars/models/your-avatar.glb"
+                               value="assets/avatars/models/64f1a714fe61576b46f27ca2.glb">
+                        <button onclick="loadCustomAvatar()" class="btn btn-warning">Load Avatar</button>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label>Quick Actions:</label>
+                        <br>
+                        <button onclick="testExpression('mouthSmile')" class="btn btn-primary">Smile</button>
+                        <button onclick="testExpression('mouthFrown')" class="btn btn-primary">Frown</button>
+                        <button onclick="testExpression('eyeBlinkLeft')" class="btn btn-primary">Wink</button>
+                        <button onclick="resetExpression()" class="btn btn-secondary">Reset</button>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label>Sample Phrases:</label>
+                        <br>
+                        <button onclick="speak('Welcome to VerzTec!')" class="btn btn-success">Welcome</button>
+                        <button onclick="speak('How can I assist you today?')" class="btn btn-success">Assist</button>
+                        <button onclick="speak('The weather is beautiful today.')" class="btn btn-success">Weather</button>
+                        <button onclick="testSpeechDebug()" class="btn btn-warning">Debug Test</button>
+                        <button onclick="testSimpleAudio()" class="btn btn-info">🔊 Test Audio</button>
+                        <button onclick="testNewSpeechFlow()" class="btn btn-primary">🎭 Test New Flow</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="status-display">
+                <strong>Status:</strong> <span id="demo-status">Ready for testing</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FBXLoader.js"></script>
+    <script src="js/rhubarb-lipsync.js"></script>
+    <script src="js/ready-player-me-avatar.js"></script>
+    <script src="js/avatar-manager.js"></script>
+    
+    <script>
+        let avatarManager = null;
+        
+        // Initialize avatar when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeDemo();
+        });
+        
+        function initializeDemo() {
+            updateStatus('Initializing 3D avatar...');
+            
+            avatarManager = new AvatarManager('avatar-demo', {
+                elevenlabsApiKey: '',
+                voice: 'pNInz6obpgDQGcFmaJgB',
+                avatarUrl: 'assets/avatars/models/64f1a714fe61576b46f27ca2.glb',
+                animationsUrl: 'assets/avatars/models/animations.glb'
+            });
+            
+            // Update status when initialized
+            setTimeout(() => {
+                updateStatus('Avatar loaded successfully!');
+                updateAvatarStatus('Ready for interaction');
+            }, 3000);
+        }
+        
+        function setApiKey() {
+            const apiKey = document.getElementById('api-key').value.trim();
+            if (!apiKey) {
+                alert('Please enter your ElevenLabs API key');
+                return;
+            }
+            
+            if (avatarManager) {
+                avatarManager.setElevenlabsApiKey(apiKey);
+                updateStatus('API key set successfully');
+            }
+        }
+        
+        function testSpeech() {
+            const text = document.getElementById('test-text').value.trim();
+            if (!text) {
+                alert('Please enter some text to speak');
+                return;
+            }
+            
+            speak(text);
+        }
+        
+        async function speak(text) {
+            if (!avatarManager) {
+                updateStatus('Avatar not initialized');
+                return;
+            }
+            
+            if (!avatarManager.options.elevenlabsApiKey) {
+                updateStatus('Please set your ElevenLabs API key first');
+                return;
+            }
+            
+            try {
+                updateStatus('Generating speech...');
+                updateAvatarStatus('Speaking...');
+                
+                await avatarManager.speak(text);
+                
+                updateStatus('Speech completed successfully');
+                updateAvatarStatus('Ready for interaction');
+            } catch (error) {
+                console.error('Speech error:', error);
+                updateStatus('Speech failed: ' + error.message);
+                updateAvatarStatus('Speech error');
+            }
+        }
+        
+        function testExpression(expression) {
+            if (avatarManager && avatarManager.readyPlayerMeController) {
+                avatarManager.readyPlayerMeController.setExpression(expression, 1.0, 1000);
+                updateStatus(`Testing expression: ${expression}`);
+            }
+        }
+        
+        function resetExpression() {
+            if (avatarManager && avatarManager.readyPlayerMeController) {
+                // Reset all expressions
+                const expressions = ['mouthSmile', 'mouthFrown', 'eyeBlinkLeft', 'eyeBlinkRight'];
+                expressions.forEach(expr => {
+                    avatarManager.readyPlayerMeController.setExpression(expr, 0, 500);
+                });
+                updateStatus('Expressions reset');
+            }
+        }
+        
+        function loadCustomAvatar() {
+            const url = document.getElementById('avatar-url').value.trim();
+            if (!url) {
+                alert('Please enter a Ready Player Me avatar URL');
+                return;
+            }
+            
+            updateStatus('Loading custom avatar...');
+            updateAvatarStatus('Loading...');
+            
+            // For demo purposes, we'll just update the URL and reinitialize
+            if (avatarManager) {
+                avatarManager.destroy();
+            }
+            
+            setTimeout(() => {
+                avatarManager = new AvatarManager('avatar-demo', {
+                    elevenlabsApiKey: document.getElementById('api-key').value,
+                    voice: document.getElementById('voice-select').value,
+                    avatarUrl: url,
+                    animationsUrl: 'assets/avatars/models/animations.glb'
+                });
+                
+                setTimeout(() => {
+                    updateStatus('Custom avatar loaded');
+                    updateAvatarStatus('Ready for interaction');
+                }, 3000);
+            }, 500);
+        }
+        
+        function updateStatus(message) {
+            document.getElementById('demo-status').textContent = message;
+            console.log('Demo Status:', message);
+        }
+        
+        function updateAvatarStatus(message) {
+            document.getElementById('avatar-status').textContent = message;
+        }
+        
+        function testSpeechDebug() {
+            if (!avatarManager) {
+                alert('Avatar not initialized');
+                return;
+            }
+            
+            updateStatus('Running debug test...');
+            
+            // First test audio playback capabilities
+            avatarManager.testAudioPlayback()
+                .then(() => {
+                    console.log('Audio test completed, now testing speech...');
+                    return avatarManager.testSpeechSimple("Hello, this is a debugging test of the speech system");
+                })
+                .then(() => {
+                    updateStatus('Debug test completed - check console for details');
+                })
+                .catch(error => {
+                    updateStatus('Debug test failed: ' + error.message);
+                    console.error('Debug test error:', error);
+                });
+        }
+        
+        function testSimpleAudio() {
+            if (!avatarManager) {
+                alert('Avatar not initialized');
+                return;
+            }
+            
+            updateStatus('Testing simple audio...');
+            
+            avatarManager.testSimpleAudio()
+                .then(() => {
+                    updateStatus('Simple audio test completed successfully');
+                })
+                .catch(error => {
+                    updateStatus('Simple audio test failed: ' + error.message);
+                    console.error('Simple audio test error:', error);
+                });
+        }
+        
+        // Voice selection change handler
+        document.getElementById('voice-select').addEventListener('change', function() {
+            if (avatarManager) {
+                avatarManager.options.voice = this.value;
+                updateStatus('Voice changed to: ' + this.options[this.selectedIndex].text);
+            }
+        });
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' && event.target.id === 'test-text') {
+                testSpeech();
+            }
+        });
+        
+        // Error handling
+        window.addEventListener('error', function(event) {
+            console.error('Demo error:', event.error);
+            updateStatus('Error: ' + event.message);
+        });
+    </script>
+</body>
+</html>
