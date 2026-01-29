@@ -1,6 +1,6 @@
 # VerzTec Project 
 
-This was a project I contributed on with help from my teammates, my main task here was to focus on building the **front and backend of the announcements system**. Which included **creating the announcements, displaying them and sending emails out based on the target audience**.
+This was a project I contributed on with help from my teammates, my main task here was to focus on building the **front and backend of the announcements system**. Which included **creating the announcements, displaying them and sending emails out based on the target audience** - Rumaisa
 
 # VerzTec Project 
 
